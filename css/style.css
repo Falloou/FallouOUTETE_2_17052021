@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+* {
+    font-family: "Raleway, sans-serif";
+    margin: 5px 5px 5px 5px;
+    padding: 0px;
+}
+
+
+/* debut body */
+
+body {
+    color: black;
+    font-weight: 400;
+    height: auto;
+    font-size: 0.95em;
+    background-color: white;
+    /* First Section */
+}
+
+
+/* debut header */
+
+body header nav img {
+    position: absolute;
+}
+
+
+/* debut navigation */
+
+body header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+body header nav ul li {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 5%;
+}
+
+
+/* hover navigation */
+
+body header nav ul li:hover {
+    color: #0065fc;
+    border-top: solid #0065fc;
+}
+
+
+/* navigation inscription */
+
+body header nav ul li.inscription {
+    color: #0065fc;
+}
+
+
+/* debut main */
+
+body main {
+    padding-bottom: 0;
+    max-width: calc(100% - 0em);
+    margin: 0;
+}
+
+body main h1 {
+    margin-left: 20px;
+}
+
+body main p {
+    margin-left: 20px;
+}
+
+
+/* info */
+
+body main div.info {
+    display: inline-flex;
+    align-items: baseline;
+    margin-left: 20px;
+}
+
+
+/* icon info */
+
+body main p i {
+    color: white;
+    background-color: #0065fc;
+    border-radius: 3rem;
+    border: 1px groove #f2f2f2;
+    width: 14px;
+    height: 14px;
+}
+
+
+/* bar de recherche*/
+
+body main div#modulerecherche {
+    height: 50px;
+    width: 42%;
+    margin: 0px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+
+/* icon bar de recherche*/
+
+body main div#modulerecherche div#map i {
+    position: absolute;
+    left: 30px;
+    height: 46px;
+    width: 50px;
+    background-color: #f2f2f2;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+
+/* input bar de recherche */
+
+body main div#modulerecherche input {
+    margin-left: 60px;
+    height: 45px;
+    width: 235px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    font-weight: 800;
+    font-size: 1.15em;
+    font-weight: 600;
+    padding-left: 0px;
+}
+
+
+/* boutton bar de recherche */
+
+body main div#modulerecherche button {
+    position: absolute;
+    right: 860px;
+    top: 155px;
+    border: none;
+    width: 100px;
+    height: 46px;
+    color: white;
+    background-color: #0065fc;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    font-weight: 800;
+    font-size: 1.15em;
+}
+
+
+/* arondi des images dans hebergement  section 1*/
+
+body main .img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+
+/* les filtres */
+
+body main #lesfiltres {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+body main .boutonsfiltre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: space-between 50rem;
+    align-content: space-between 50rem;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+body main .filtre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 50px;
+    height: 37px;
+    border-top: 2.5px solid #f2f2f2;
+    border-right: 2.5px solid #f2f2f2;
+    border-left: none;
+    border-bottom: 2.5px solid #f2f2f2;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+/* icon ds filtre */
+
+body main .filtre div#icon {
+    position: absolute;
+    top: 220px;
+    margin: auto;
+}
+
+body main .filtre div#icon i {
+    height: 57px;
+    width: 57px;
+    color: #0065fc;
+    background-color: #deebff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+/* texte dans les filtre */
+
+body main .filtre p {
+    margin-left: 70px;
+    font-weight: 800;
+    font-size: 1.15em;
+}
+
+
+/* parti plus de logement dans section 1 */
+
+body main p.plusdelogements {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+/*  Section  1 hebergement a marseille*/
+
+body main section.hebergement {
+    padding-top: 2%;
+}
+
+body main section.hebergement div.container_hebergement {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles {
+    width: 70%;
+    background-color: #f2f2f2;
+    border-radius: 1rem;
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles h3 {
+    margin: 15px 0px 10px 10px;
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col {
+    width: 32%;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article header {
+    padding: 22% 0%;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article .img1 {
+    background-image: url(../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article .img2 {
+    background-image: url(../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article .img3 {
+    background-image: url(../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article .img4 {
+    background-image: url(../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article .img5 {
+    background-image: url(../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article .img6 {
+    background-image: url(../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article i.fa-star {
+    color: #0065fc;
+}
+
+
+/*  Section  1 hebergement a marseille partie les plus popuaires*/
+
+body main section.hebergement div.container_hebergement div.contentpopulaire {
+    background-color: #f2f2f2;
+    width: 30%;
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire h3 {
+    margin: 15px 0px 10px 10px;
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire i.fa-chart-line {
+    position: absolute;
+    right: 58px;
+    top: 418px;
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire .img_populaire {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire article.populaire {
+    width: 90%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire article.populaire header {
+    padding: 22% 0%;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire article.populaire .img7 {
+    width: 40%;
+    margin-bottom: 2%;
+    background-image: url(../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire article.populaire .img8 {
+    width: 40%;
+    background-image: url(../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire article.populaire .img9 {
+    width: 40%;
+    background-image: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire article.populaire i.fa-star {
+    color: #0065fc;
+}
+
+
+/*  Section  2 activité a marseille */
+
+body section.activites div.activite {
+    width: 100%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 100%;
+}
+
+body section.activites div.activite div.col {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+body section.activites div.activite div.col article {
+    background-color: white;
+    border-radius: 1rem;
+    margin-bottom: 5%;
+}
+
+body section.activites div.activite div.col article header {
+    padding: 22% 0%;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+}
+
+body section.activites div.activite div.col article .img10 {
+    height: 193px;
+    background-image: url(../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+}
+
+body section.activites div.activite div.col article .img11 {
+    background-image: url(../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+}
+
+body section.activites div.activite div.col article .img12 {
+    background-image: url(../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+}
+
+body section.activites div.activite div.col article .img13 {
+    height: 193px;
+    background-image: url(../images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+}
+
+body section.activites div.activite div.col article .img14 {
+    background-image: url(../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+}
+
+body section.activites div.activite div.col article .img15 {
+    background-image: url(../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+}
+
+body section.activites div.activite div.col article div.titreArticle {
+    border: #deebff;
+    border-right: 2.5px solid #f2f2f2;
+    border-left: 2.5px solid #f2f2f2;
+    border-bottom: 2.5px solid #f2f2f2;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    box-shadow: 2.5px 2.5px 2.5px #f2f2f2;
+}
+
+
+/*  footer*/
+
+body footer {
+    background-color: #f2f2f2;
+    margin-top: 50px;
+}
+
+body footer div.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+body footer div.row div.col {
+    width: 33%;
+}
+
+body footer div.row div.col ul li {
+    list-style: none;
+}
+
+
+/*# sourceMappingURL=style.css.map */
