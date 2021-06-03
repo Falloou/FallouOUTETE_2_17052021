@@ -65,6 +65,11 @@ body header nav ul li.inscription {
     color: #0065fc;
 }
 
+body header nav ul li.inscription {
+    color: #0065fc;
+    border-top: none;
+}
+
 
 /* debut main */
 
@@ -243,8 +248,8 @@ body main .filtre:hover div#icon i {
 /* texte dans les filtres */
 
 body main .filtre p {
-    margin-left: 70px;
-    font-weight: 800;
+    margin-left: 56px;
+    font-weight: 600;
     font-size: 1.15em;
 }
 
