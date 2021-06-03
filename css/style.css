@@ -45,13 +45,15 @@ body header nav ul li {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    width: 5%;
+    width: 7%;
+    padding-top: 20px;
 }
 
 
 /* hover navigation */
 
 body header nav ul li:hover {
+    margin: 0px;
     color: #0065fc;
     border-top: solid #0065fc;
 }
@@ -74,31 +76,11 @@ body main {
 
 body main h1 {
     margin-left: 20px;
+    font-size: x-large;
 }
 
 body main p {
-    margin-left: 20px;
-}
-
-
-/* info */
-
-body main div.info {
-    display: inline-flex;
-    align-items: baseline;
-    margin-left: 20px;
-}
-
-
-/* icon info */
-
-body main p i {
-    color: white;
-    background-color: #0065fc;
-    border-radius: 3rem;
-    border: 1px groove #f2f2f2;
-    width: 14px;
-    height: 14px;
+    margin-left: 25px;
 }
 
 
@@ -158,7 +140,7 @@ body main div#modulerecherche input {
 body main div#modulerecherche button {
     position: absolute;
     right: 860px;
-    top: 155px;
+    top: 166px;
     border: none;
     width: 100px;
     height: 46px;
@@ -226,13 +208,13 @@ body main .filtre {
 
 body main .filtre div#icon {
     position: absolute;
-    top: 220px;
+    top: 240px;
     margin: auto;
 }
 
 body main .filtre div#icon i {
-    height: 57px;
-    width: 57px;
+    height: 44px;
+    width: 44px;
     color: #0065fc;
     background-color: #deebff;
     display: -webkit-box;
@@ -247,8 +229,18 @@ body main .filtre div#icon i {
     border-radius: 50%;
 }
 
+body main .filtre:hover {
+    color: #0065fc;
+    background-color: #deebff;
+}
 
-/* texte dans les filtre */
+body main .filtre:hover div#icon i {
+    color: white;
+    background-color: #0065fc;
+}
+
+
+/* texte dans les filtres */
 
 body main .filtre p {
     margin-left: 70px;
@@ -257,11 +249,24 @@ body main .filtre p {
 }
 
 
-/* parti plus de logement dans section 1 */
+/* info */
 
-body main p.plusdelogements {
-    margin-top: 50px;
+body main div.info {
+    display: inline-flex;
+    align-items: baseline;
     margin-left: 20px;
+}
+
+
+/* icon info */
+
+body main p i {
+    color: white;
+    background-color: #0065fc;
+    border-radius: 3rem;
+    border: 1px groove #f2f2f2;
+    width: 14px;
+    height: 14px;
 }
 
 
@@ -311,6 +316,9 @@ body main section.hebergement div.container_hebergement div.hebergementamarseill
     background-size: cover;
 }
 
+
+/* les imanges dans la partie hébergement a marseille */
+
 body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article .img1 {
     background-image: url(../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
 }
@@ -354,7 +362,7 @@ body main section.hebergement div.container_hebergement div.contentpopulaire h3 
 body main section.hebergement div.container_hebergement div.contentpopulaire i.fa-chart-line {
     position: absolute;
     right: 58px;
-    top: 418px;
+    top: 419px;
 }
 
 body main section.hebergement div.container_hebergement div.contentpopulaire .img_populaire {
@@ -378,6 +386,9 @@ body main section.hebergement div.container_hebergement div.contentpopulaire art
     background-size: cover;
 }
 
+
+/* les imanges dans la partie les plus populaires */
+
 body main section.hebergement div.container_hebergement div.contentpopulaire article.populaire .img7 {
     width: 40%;
     margin-bottom: 2%;
@@ -394,8 +405,21 @@ body main section.hebergement div.container_hebergement div.contentpopulaire art
     background-image: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
 }
 
-body main section.hebergement div.container_hebergement div.contentpopulaire article.populaire i.fa-star {
+
+/* Icons etroiles hebergement a marseille dans section 1 */
+
+body main section.hebergement div.container_hebergement i.fa-star {
     color: #0065fc;
+    font-size: 0.7rem;
+    letter-spacing: -12px;
+}
+
+
+/* parti plus de logement dans section 1 */
+
+body main p.plusdelogements {
+    margin-top: 50px;
+    margin-left: 20px;
 }
 
 
@@ -426,6 +450,9 @@ body section.activites div.activite div.col article header {
     text-align: center;
     background-size: cover;
 }
+
+
+/* les imanges dans activités a marseille */
 
 body section.activites div.activite div.col article .img10 {
     height: 193px;
