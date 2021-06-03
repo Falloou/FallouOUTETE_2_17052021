@@ -14,7 +14,6 @@ body {
     height: auto;
     font-size: 0.95em;
     background-color: white;
-    /* First Section */
 }
 
 
@@ -158,7 +157,7 @@ body main div#modulerecherche button {
 }
 
 
-/* arondi des images dans hebergement  section 1*/
+/* arrondi des images dans hebergement  section 1*/
 
 body main .img {
     border-top-left-radius: 1rem;
