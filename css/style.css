@@ -317,6 +317,13 @@ body main section.hebergement div.container_hebergement div.hebergementamarseill
 }
 
 
+/* les titres dans la partie hébergement a marseille */
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.titreArticle p.paragrapher {
+    margin-left: 10px;
+}
+
+
 /* les imanges dans la partie hébergement a marseille */
 
 body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article .img1 {
@@ -403,6 +410,10 @@ body main section.hebergement div.container_hebergement div.contentpopulaire art
 body main section.hebergement div.container_hebergement div.contentpopulaire article.populaire .img9 {
     width: 40%;
     background-image: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire article.populaire p.paragrapher {
+    margin-left: 10px;
 }
 
 
