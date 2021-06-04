@@ -315,7 +315,7 @@ body main section.hebergement div.container_hebergement div.hebergementamarseill
     cursor: pointer;
 }
 
-body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article header {
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col header {
     padding: 22% 0%;
     background-position: center;
     text-align: center;
@@ -332,31 +332,31 @@ body main section.hebergement div.container_hebergement div.hebergementamarseill
 
 /* les imanges dans la partie hébergement a marseille */
 
-body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article .img1 {
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img1 {
     background-image: url(../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
 }
 
-body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article .img2 {
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img2 {
     background-image: url(../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
 }
 
-body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article .img3 {
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img3 {
     background-image: url(../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
 }
 
-body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article .img4 {
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img4 {
     background-image: url(../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
 }
 
-body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article .img5 {
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img5 {
     background-image: url(../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
 }
 
-body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article .img6 {
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img6 {
     background-image: url(../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
 }
 
-body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article i.fa-star {
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col i.fa-star {
     color: #0065fc;
 }
 
@@ -455,15 +455,11 @@ body section.activites div.activite div.col {
     width: 100%;
     border-radius: 1rem;
     cursor: pointer;
-}
-
-body section.activites div.activite div.col article {
-    background-color: white;
     border-radius: 1rem;
     margin-bottom: 5%;
 }
 
-body section.activites div.activite div.col article header {
+body section.activites div.activite div.col header {
     padding: 22% 0%;
     background-position: center;
     text-align: center;
@@ -473,33 +469,33 @@ body section.activites div.activite div.col article header {
 
 /* les imanges dans activités a marseille */
 
-body section.activites div.activite div.col article .img10 {
+body section.activites div.activite div.col .img10 {
     height: 193px;
     background-image: url(../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
 }
 
-body section.activites div.activite div.col article .img11 {
+body section.activites div.activite div.col .img11 {
     background-image: url(../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
 }
 
-body section.activites div.activite div.col article .img12 {
+body section.activites div.activite div.col .img12 {
     background-image: url(../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
 }
 
-body section.activites div.activite div.col article .img13 {
+body section.activites div.activite div.col .img13 {
     height: 193px;
     background-image: url(../images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
 }
 
-body section.activites div.activite div.col article .img14 {
+body section.activites div.activite div.col .img14 {
     background-image: url(../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
 }
 
-body section.activites div.activite div.col article .img15 {
+body section.activites div.activite div.col .img15 {
     background-image: url(../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
 }
 
-body section.activites div.activite div.col article div.titreArticle {
+body section.activites div.activite div.col div.titreArticle {
     border: #deebff;
     border-right: 2.5px solid #f2f2f2;
     border-left: 2.5px solid #f2f2f2;
