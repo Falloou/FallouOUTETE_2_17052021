@@ -201,7 +201,7 @@ body main .filtre {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 10px;
     height: 37px;
     border-top: 2.5px solid #f2f2f2;
     border-right: 2.5px solid #f2f2f2;
@@ -214,11 +214,7 @@ body main .filtre {
 
 /* icon ds filtre */
 
-body main .filtre div#icon {
-    position: absolute;
-    top: 253px;
-    margin: auto;
-}
+body main .filtre div#icon {}
 
 body main .filtre div#icon i {
     height: 44px;
@@ -251,7 +247,6 @@ body main .filtre:hover div#icon i {
 /* texte dans les filtres */
 
 body main .filtre p {
-    margin-left: 56px;
     font-weight: 800;
     font-size: 1.15em;
 }
@@ -556,4 +551,37 @@ body footer div.row div.col ul li a {
 }
 
 
-/*# sourceMappingURL=style.css.map */
+/*# smartphone*/
+
+@media screen and (max-width: 569px) {
+    /* body */
+    /* heder */
+    /* navigation */
+    body header nav ul {
+        padding-top: 50px;
+    }
+    body header nav ul li.inscription a {
+        position: absolute;
+        top: 5px;
+    }
+    /*  hebergement  section 1*/
+    /* les filtres */
+    body main #lesfiltres {
+        flex-wrap: wrap;
+    }
+    /* icon ds filtre */
+    body main .filtre div#icon {
+        top: 369px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /*  Section  1 hebergement a marseille partie les plus popuaires*/
+    body main section.hebergement div.container_hebergement {
+        display: block;
+    }
+    /*  Section  2 activité a marseille */
+    body section.activites div.activite {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
