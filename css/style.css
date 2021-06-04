@@ -564,6 +564,12 @@ body footer div.row div.col ul li a {
         position: absolute;
         top: 5px;
     }
+    /* recherche */
+    body main div#modulerecherche button {
+        position: absolute;
+        right: 115px;
+        top: 258px;
+    }
     /*  hebergement  section 1*/
     /* les filtres */
     body main #lesfiltres {
