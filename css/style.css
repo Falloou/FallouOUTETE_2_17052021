@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 * {
     font-family: "Raleway, sans-serif";
     margin: 5px 5px 5px 5px;
@@ -14,6 +14,7 @@ body {
     height: auto;
     font-size: 0.95em;
     background-color: white;
+    font-size: 0.95em;
 }
 
 
@@ -311,6 +312,7 @@ body main section.hebergement div.container_hebergement div.hebergementamarseill
     width: 32%;
     border-radius: 1rem;
     background-color: white;
+    cursor: pointer;
 }
 
 body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col article header {
@@ -381,16 +383,17 @@ body main section.hebergement div.container_hebergement div.contentpopulaire .im
     border-bottom-left-radius: 1rem;
 }
 
-body main section.hebergement div.container_hebergement div.contentpopulaire article.populaire {
+body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
     width: 90%;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     background-color: white;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
-body main section.hebergement div.container_hebergement div.contentpopulaire article.populaire header {
+body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire header {
     padding: 22% 0%;
     background-position: center;
     text-align: center;
@@ -400,23 +403,23 @@ body main section.hebergement div.container_hebergement div.contentpopulaire art
 
 /* les imanges dans la partie les plus populaires */
 
-body main section.hebergement div.container_hebergement div.contentpopulaire article.populaire .img7 {
+body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img7 {
     width: 40%;
     margin-bottom: 2%;
     background-image: url(../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
 }
 
-body main section.hebergement div.container_hebergement div.contentpopulaire article.populaire .img8 {
+body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img8 {
     width: 40%;
     background-image: url(../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
 }
 
-body main section.hebergement div.container_hebergement div.contentpopulaire article.populaire .img9 {
+body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img9 {
     width: 40%;
     background-image: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
 }
 
-body main section.hebergement div.container_hebergement div.contentpopulaire article.populaire p.paragrapher {
+body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire p.paragrapher {
     margin-left: 10px;
 }
 
@@ -451,6 +454,7 @@ body section.activites div.activite {
 body section.activites div.activite div.col {
     width: 100%;
     border-radius: 1rem;
+    cursor: pointer;
 }
 
 body section.activites div.activite div.col article {
