@@ -538,6 +538,10 @@ body footer div.row div.col {
     width: 33%;
 }
 
+body footer div.row div.col h3 {
+    margin-left: 10px;
+}
+
 body footer div.row div.col ul li {
     list-style: none;
 }
@@ -545,6 +549,10 @@ body footer div.row div.col ul li {
 body footer div.row div.col ul li a {
     text-decoration: none;
     color: black;
+}
+
+body footer div.row div.col ul li a {
+    text-decoration: none;
 }
 
 
