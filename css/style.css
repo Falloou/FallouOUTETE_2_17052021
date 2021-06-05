@@ -604,9 +604,14 @@ body footer div.row div.col ul li a {
     body section.activites div.activite {
         display: block;
     }
-    body section.activites div.activite div.col .img {}
-    body section.activites div.activite div.col div.row div.col-2 {
-        display: flex;
+    body section.activites div.activite div.col .img {
+        padding: 100px;
+    }
+    body section.activites div.activite div.col .img10 {
+        height: 19px;
+    }
+    body section.activites div.activite div.col .img13 {
+        height: 19px;
     }
     /* footer */
     body footer div.row {
@@ -661,6 +666,9 @@ body footer div.row div.col ul li a {
     body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col {
         width: 100%;
     }
+    body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img {
+        padding: 70px;
+    }
     /*  Section  1 hebergement a marseille partie les plus popuaires*/
     body main section.hebergement div.container_hebergement div.contentpopulaire {
         width: 100%;
@@ -673,14 +681,8 @@ body footer div.row div.col ul li a {
         width: 50%;
         height: 100px;
     }
-    body section.activites div.activite div.col div.row div.col-2 {
-        display: inline-flex;
-        width: 50%;
-        height: 100px;
-    }
     body section.activites div.activite div.col .img {
-        height: 2px;
-        width: initial;
+        padding: 60px;
     }
     /* footer */
     body footer div.row {
