@@ -44,7 +44,7 @@ body header nav ul li {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    width: 7%;
+    width: 10%;
 }
 
 body header nav ul li a {
@@ -246,6 +246,7 @@ body main .filtre:hover div#icon i {
 body main .filtre p {
     font-weight: 800;
     font-size: 1.15em;
+    margin-left: 2px;
 }
 
 
@@ -640,10 +641,17 @@ body footer div.row div.col ul li a {
     body header nav ul li {
         width: 28%;
     }
+    body header nav ul li a:hover {
+        border-bottom: solid #0065fc;
+        border-top: none;
+    }
+    body main h1 {
+        font-size: medium;
+    }
     /* recherche */
     /* info */
     body main p.plusdelogements {
-        margin-top: 114px;
+        margin-top: 159px;
     }
     /*  hebergement  section 1*/
     /* les filtres */
