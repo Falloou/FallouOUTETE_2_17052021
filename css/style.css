@@ -565,6 +565,9 @@ body footer div.row div.col ul li a {
         position: absolute;
         top: 5px;
     }
+    body header nav ul li.inscription a:hover {
+        border: none;
+    }
     body header nav ul li {
         width: 28%;
     }
@@ -644,6 +647,9 @@ body footer div.row div.col ul li a {
     body header nav ul li a:hover {
         border-bottom: solid #0065fc;
         border-top: none;
+    }
+    body header nav ul li.inscription a:hover {
+        border: none;
     }
     body main h1 {
         font-size: medium;
