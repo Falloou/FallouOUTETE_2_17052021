@@ -492,19 +492,24 @@ body section.activites div.activite {
 }
 
 body section.activites div.activite div.col {
-    width: 100%;
+    width: 25%;
     border-radius: 1rem;
     cursor: pointer;
     border-radius: 1rem;
-    margin-bottom: 5%;
+    height: 0px;
 }
 
-body section.activites div.activite div.col:hover {
+body section.activites div.activite div.col-1:hover {
     transition: transform 200ms;
     transform: scale(1.02);
 }
 
-body section.activites div.activite div.col div.row:hover {
+body section.activites div.activite div.col-2 {
+    width: 278px;
+    height: 199px;
+}
+
+body section.activites div.activite div.col-2:hover {
     transition: transform 200ms;
     transform: scale(1.02);
 }
@@ -570,7 +575,7 @@ body section.activites div.activite div.col div.titreArticle h3 {
 
 body footer {
     background-color: #f2f2f2;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 body footer div.row {
@@ -644,7 +649,8 @@ body footer div.row div.col ul li a {
     }
     /*  Section  1 hebergement a marseille */
     body main section.hebergement div.container_hebergement {
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
     }
     body main section.hebergement div.container_hebergement div.hebergementamarseilles {
         width: 100%;
@@ -709,8 +715,14 @@ body footer div.row div.col ul li a {
     body header nav ul li.navigation {
         width: 50%;
         padding-right: 50px;
+        padding-bottom: 10px;
+        border-bottom: solid #f2f2f2;
     }
     body header nav ul li.navigation a:hover {
+        border-bottom: none;
+        border-top: none;
+    }
+    body header nav ul li.navigation:hover {
         border-bottom: solid #0065fc;
         border-top: none;
     }
@@ -734,7 +746,8 @@ body footer div.row div.col ul li a {
     }
     /*  Section  1 hebergement a marseille */
     body main section.hebergement div.container_hebergement {
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
     }
     body main section.hebergement div.container_hebergement div.hebergementamarseilles {
         width: 94%;
