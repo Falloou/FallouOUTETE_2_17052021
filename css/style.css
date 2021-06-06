@@ -281,12 +281,14 @@ body main section.hebergement div.container_hebergement {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding: 1%;
 }
 
 body main section.hebergement div.container_hebergement div.hebergementamarseilles {
     width: 70%;
     background-color: #f2f2f2;
     border-radius: 1rem;
+    padding: 2%;
 }
 
 body main section.hebergement div.container_hebergement div.hebergementamarseilles h3 {
@@ -309,6 +311,11 @@ body main section.hebergement div.container_hebergement div.hebergementamarseill
     border-radius: 1rem;
     background-color: white;
     cursor: pointer;
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col:hover {
+    transition: transform 200ms;
+    transform: scale(1.02);
 }
 
 body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col header {
@@ -368,17 +375,22 @@ body main section.hebergement div.container_hebergement div.hebergementamarseill
 body main section.hebergement div.container_hebergement div.contentpopulaire {
     background-color: #f2f2f2;
     width: 30%;
+    padding: 2%;
+    border-radius: 1rem;
 }
 
-body main section.hebergement div.container_hebergement div.contentpopulaire h3 {
+body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire {
+    display: inline-flex;
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
     margin: 15px 0px 10px 10px;
     font-weight: 600;
 }
 
-body main section.hebergement div.container_hebergement div.contentpopulaire i.fa-chart-line {
-    position: absolute;
-    right: 58px;
-    top: 433px;
+body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
+    padding-top: 13px;
+    padding-left: 88px;
 }
 
 body main section.hebergement div.container_hebergement div.contentpopulaire .img_populaire {
@@ -394,6 +406,11 @@ body main section.hebergement div.container_hebergement div.contentpopulaire div
     background-color: white;
     border-radius: 1rem;
     cursor: pointer;
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire:hover {
+    transition: transform 200ms;
+    transform: scale(1.02);
 }
 
 body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire header {
@@ -463,6 +480,16 @@ body section.activites div.activite div.col {
     margin-bottom: 5%;
 }
 
+body section.activites div.activite div.col:hover {
+    transition: transform 200ms;
+    transform: scale(1.02);
+}
+
+body section.activites div.activite div.col div.row:hover {
+    transition: transform 200ms;
+    transform: scale(1.02);
+}
+
 body section.activites div.activite div.col header {
     padding: 22% 0%;
     background-position: center;
@@ -475,27 +502,33 @@ body section.activites div.activite div.col header {
 
 body section.activites div.activite div.col .img10 {
     height: 193px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
     background-image: url(../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
 }
 
 body section.activites div.activite div.col .img11 {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
     background-image: url(../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
 }
 
 body section.activites div.activite div.col .img12 {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
     background-image: url(../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
 }
 
 body section.activites div.activite div.col .img13 {
     height: 193px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
     background-image: url(../images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
 }
 
 body section.activites div.activite div.col .img14 {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
     background-image: url(../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
 }
 
 body section.activites div.activite div.col .img15 {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
     background-image: url(../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
 }
 
@@ -601,8 +634,18 @@ body footer div.row div.col ul li a {
     body main section.hebergement div.container_hebergement div.contentpopulaire {
         width: 100%;
     }
-    body main section.hebergement div.container_hebergement div.contentpopulaire i.fa-chart-line {
-        top: 553px;
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
+        padding-top: 13px;
+        padding-left: 430px;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img7 {
+        padding: 30px;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img8 {
+        padding: 30px;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img9 {
+        padding: 30px;
     }
     /*  Section  2 activité a marseille */
     body section.activites div.activite {
@@ -675,7 +718,7 @@ body footer div.row div.col ul li a {
         display: block;
     }
     body main section.hebergement div.container_hebergement div.hebergementamarseilles {
-        width: 100%;
+        width: 94%;
     }
     body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col {
         width: 100%;
@@ -685,10 +728,24 @@ body footer div.row div.col ul li a {
     }
     /*  Section  1 hebergement a marseille partie les plus popuaires*/
     body main section.hebergement div.container_hebergement div.contentpopulaire {
-        width: 100%;
+        width: 94%;
     }
-    body main section.hebergement div.container_hebergement div.contentpopulaire i.fa-chart-line {
-        top: 553px;
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
+        padding-top: 13px;
+        padding-left: 223px;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img7 {
+        padding: 22px;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img8 {
+        padding: 22px;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img9 {
+        padding: 22px;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire h3 {
+        font-size: 0.8rem;
+        margin-left: 10px;
     }
     /*  Section  2 activité a marseille */
     body section.activites div.activite div.col div.row div.col {
