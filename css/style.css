@@ -27,8 +27,6 @@ body header nav img {
 /* debut navigation */
 
 body header nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
@@ -106,8 +104,6 @@ body main div#modulerecherche {
     height: 50px;
     width: 64%;
     margin: 0px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
 }
 
@@ -126,8 +122,6 @@ body main div#modulerecherche div#map i {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     border-bottom-left-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -181,8 +175,6 @@ body main .img {
 /* les filtres */
 
 body main #lesfiltres {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -194,8 +186,6 @@ body main #lesfiltres {
 }
 
 body main .boutonsfiltre {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -ms-flex-line-pack: space-between 50rem;
     align-content: space-between 50rem;
@@ -204,8 +194,6 @@ body main .boutonsfiltre {
 }
 
 body main .filtre {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -228,8 +216,6 @@ body main .filtre div#icon i {
     width: 44px;
     color: #0065fc;
     background-color: #deebff;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -301,8 +287,6 @@ body main section.hebergement {
 }
 
 body main section.hebergement div.container_hebergement {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding: 1%;
 }
@@ -319,11 +303,6 @@ body main section.hebergement div.container_hebergement div.hebergementamarseill
 }
 
 body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -423,8 +402,6 @@ body main section.hebergement div.container_hebergement div.contentpopulaire .im
 
 body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
     width: 90%;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     background-color: white;
     border-radius: 1rem;
@@ -485,8 +462,6 @@ body section.activites h3 {
 
 body section.activites div.activite {
     width: 100%;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     height: 100%;
 }
@@ -581,8 +556,6 @@ body footer {
 }
 
 body footer div.row {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 }
 
