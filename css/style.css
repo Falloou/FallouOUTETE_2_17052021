@@ -1,4 +1,4 @@
-* {
+    * {
     font-family: "Raleway", "sans-serif";
     margin: 5px 5px 5px 5px;
     padding: 0px;
@@ -703,8 +703,7 @@ body footer div.row div.col ul li a {
         font-size: x-large;
     }
     /* recherche */
-<<<<<<< HEAD
-    body main div#modulerecherche input {
+    <<<<<<< HEAD body main div#modulerecherche input {
         width: 241px;
     }
     body main div#modulerecherche div#map i {
@@ -717,92 +716,91 @@ body footer div.row div.col ul li a {
         display: block;
         border-bottom-left-radius: 1rem;
         border-top-left-radius: 1rem;
-=======
-    /* info */
-    body main p.plusdelogements {
-        margin-top: 159px;
->>>>>>> parent of 46ed5ff... Update style.css
+        =======/* info */
+        body main p.plusdelogements {
+            margin-top: 159px;
+            >>>>>>>parent of 46ed5ff... Update style.css
+        }
+        /* les filtres */
+        body main #lesfiltres {
+            margin-left: 0px;
+        }
+        body main #lesfiltres h3 {
+            padding-left: 15px;
+        }
+        body main .lesfiltres {
+            flex-wrap: wrap;
+        }
+        /* icon ds filtre */
+        body main .filtre div#icon {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        /* info */
+        body main #lesfiltres p.plusdelogements {
+            padding-top: 0px;
+        }
+        /*  Section  1 hebergement a marseille */
+        body main section.hebergement {
+            margin-top: 266px;
+            padding-top: 0px;
+        }
+        body main section.hebergement div.container_hebergement {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        body main section.hebergement div.container_hebergement div.hebergementamarseilles {
+            width: 94%;
+        }
+        body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col {
+            width: 100%;
+        }
+        body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img {
+            padding: 70px;
+        }
+        /*  Section  1 hebergement a marseille partie les plus popuaires*/
+        body main section.hebergement div.container_hebergement div.contentpopulaire {
+            width: 94%;
+        }
+        body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
+            width: 170px;
+        }
+        body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
+            padding-top: 13px;
+            padding-left: 176px;
+        }
+        body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img7 {
+            padding: 22px;
+        }
+        body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img8 {
+            padding: 22px;
+            width: 57%;
+        }
+        body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img9 {
+            padding: 22px;
+        }
+        body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire h3 {
+            font-size: 0.8rem;
+            margin-left: 10px;
+        }
+        /*  Section  2 activité a marseille */
+        body section.activites div.activite div.col {
+            width: 98%;
+        }
+        body section.activites div.activite div.col div.row div.col-2 {
+            width: 100%;
+            height: 173px;
+            margin-left: 0px;
+        }
+        body section.activites div.activite div.col .img {
+            padding: 60px;
+        }
+        /* footer */
+        body footer div.row {
+            display: block;
+        }
+        body footer div.row div.col {
+            width: auto;
+            padding-top: 25px;
+        }
     }
-    /* les filtres */
-    body main #lesfiltres {
-        margin-left: 0px;
-    }
-    body main #lesfiltres h3 {
-        padding-left: 15px;
-    }
-    body main .lesfiltres {
-        flex-wrap: wrap;
-    }
-    /* icon ds filtre */
-    body main .filtre div#icon {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    /* info */
-    body main #lesfiltres p.plusdelogements {
-        padding-top: 0px;
-    }
-    /*  Section  1 hebergement a marseille */
-    body main section.hebergement {
-        margin-top: 266px;
-        padding-top: 0px;
-    }
-    body main section.hebergement div.container_hebergement {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    body main section.hebergement div.container_hebergement div.hebergementamarseilles {
-        width: 94%;
-    }
-    body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col {
-        width: 100%;
-    }
-    body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img {
-        padding: 70px;
-    }
-    /*  Section  1 hebergement a marseille partie les plus popuaires*/
-    body main section.hebergement div.container_hebergement div.contentpopulaire {
-        width: 94%;
-    }
-    body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
-        width: 170px;
-    }
-    body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
-        padding-top: 13px;
-        padding-left: 176px;
-    }
-    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img7 {
-        padding: 22px;
-    }
-    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img8 {
-        padding: 22px;
-        width: 57%;
-    }
-    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img9 {
-        padding: 22px;
-    }
-    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire h3 {
-        font-size: 0.8rem;
-        margin-left: 10px;
-    }
-    /*  Section  2 activité a marseille */
-    body section.activites div.activite div.col {
-        width: 98%;
-    }
-    body section.activites div.activite div.col div.row div.col-2 {
-        width: 100%;
-        height: 173px;
-        margin-left: 0px;
-    }
-    body section.activites div.activite div.col .img {
-        padding: 60px;
-    }
-    /* footer */
-    body footer div.row {
-        display: block;
-    }
-    body footer div.row div.col {
-        width: auto;
-        padding-top: 25px;
-    }
-}
