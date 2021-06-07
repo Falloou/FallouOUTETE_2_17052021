@@ -496,7 +496,6 @@ body section.activites div.activite div.col {
     border-radius: 1rem;
     cursor: pointer;
     border-radius: 1rem;
-    height: 0px;
 }
 
 body section.activites div.activite div.col-1:hover {
