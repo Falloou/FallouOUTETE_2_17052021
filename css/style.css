@@ -139,7 +139,7 @@ body main div#modulerecherche div#map i {
 body main div#modulerecherche input {
     margin-left: 68px;
     height: 45px;
-    width: 235px;
+    width: 206px;
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
     border-left: 1px solid transparent;
@@ -576,6 +576,7 @@ body footer {
     background-color: #f2f2f2;
     margin-top: 2px;
     margin-left: -8px;
+    margin-right: -8px;
     padding: 20px 0px 20px 0px
 }
 
@@ -763,15 +764,19 @@ body footer div.row div.col ul li a {
     body main section.hebergement div.container_hebergement div.contentpopulaire {
         width: 94%;
     }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
+        width: 170px;
+    }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
         padding-top: 13px;
-        padding-left: 223px;
+        padding-left: 176px;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img7 {
         padding: 22px;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img8 {
         padding: 22px;
+        width: 57%;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img9 {
         padding: 22px;
@@ -787,6 +792,7 @@ body footer div.row div.col ul li a {
     body section.activites div.activite div.col div.row div.col-2 {
         width: 100%;
         height: 173px;
+        margin-left: 0px;
     }
     body section.activites div.activite div.col .img {
         padding: 60px;
