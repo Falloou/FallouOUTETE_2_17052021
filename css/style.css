@@ -703,6 +703,7 @@ body footer div.row div.col ul li a {
         font-size: x-large;
     }
     /* recherche */
+<<<<<<< HEAD
     body main div#modulerecherche input {
         width: 241px;
     }
@@ -716,6 +717,11 @@ body footer div.row div.col ul li a {
         display: block;
         border-bottom-left-radius: 1rem;
         border-top-left-radius: 1rem;
+=======
+    /* info */
+    body main p.plusdelogements {
+        margin-top: 159px;
+>>>>>>> parent of 46ed5ff... Update style.css
     }
     /* les filtres */
     body main #lesfiltres {
