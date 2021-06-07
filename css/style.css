@@ -575,6 +575,8 @@ body section.activites div.activite div.col div.titreArticle h3 {
 body footer {
     background-color: #f2f2f2;
     margin-top: 2px;
+    margin-left: -8px;
+    padding: 20px 0px 20px 0px
 }
 
 body footer div.row {
@@ -779,9 +781,11 @@ body footer div.row div.col ul li a {
         margin-left: 10px;
     }
     /*  Section  2 activité a marseille */
-    body section.activites div.activite div.col div.row div.col {
-        width: 50%;
-        height: 100px;
+    body section.activites div.activite div.col {
+        width: 100%;
+    }
+    body section.activites div.activite div.col div.row div.col-2 {
+        width: 100%;
     }
     body section.activites div.activite div.col .img {
         padding: 60px;
