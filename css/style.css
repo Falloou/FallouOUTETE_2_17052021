@@ -542,16 +542,15 @@
                                     padding-top: 40px;
                                     padding-right: 0px;
                                 }
-                                
-                                body header nav li.inscription a {
-                                    position: absolute;
-                                    top: 18px;
-                                    right: 20px;
-                                }
-                                
+
                                 body header nav ul li.navigation {
                                     width: 50%;
                                     padding-right: 96px;
+                                }
+                                body header nav li.inscription a {
+                                    position: absolute;
+                                    top: 13px;
+                                    right: 40px;
                                 }
                                 
                                 body header nav ul li.navigation a:hover {
@@ -633,7 +632,7 @@
                                 }
                                 
                                 body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col {
-                                    width: 91%;
+                                    width: 84%;
                                 }
                                 
                                 body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img {
@@ -644,6 +643,9 @@
                                 body main section.hebergement div.container_hebergement div.contentpopulaire {
                                     width: 100%;
                                     border-radius: 0rem;
+                                }
+                                body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
+                                    width: 83%;
                                 }
                                 
                                 body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
@@ -670,7 +672,7 @@
                                 }
                                 
                                 body section.activites div.activite div.col {
-                                    width: 100%;
+                                    width: 92%;
                                 }
                                 
                                 body section.activites div.activite div.col-2 {
