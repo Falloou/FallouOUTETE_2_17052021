@@ -61,16 +61,16 @@ body header nav ul li.navigation a:hover {
 
 /* navigation inscription */
 
-body header nav ul li.inscription {
+body header nav li.inscription {
     border-top: none;
+    border-bottom: none;
     list-style: none;
     padding-top: 24px;
     margin-left: 40px;
 }
 
-body header nav ul li.inscription a {
+body header nav li.inscription a {
     color: #0065fc;
-    border-top: none;
     font-weight: bold;
     text-decoration: none;
 }
@@ -155,6 +155,10 @@ body main div#modulerecherche button {
     padding-right: 15px;
 }
 
+body main div#modulerecherche button.loupe {
+    display: none;
+}
+
 
 /* arrondi des images dans hebergement  section 1*/
 
@@ -168,6 +172,7 @@ body main .img {
 
 body main #lesfiltres {
     display: flex;
+    flex-wrap: wrap;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -259,7 +264,7 @@ body main p i.fa-info {
 /* Info plus de 500 logement */
 
 body main p.plusdelogements {
-    margin-top: 28px;
+    margin-top: 0px;
     margin-left: 20px;
 }
 
@@ -267,7 +272,7 @@ body main p.plusdelogements {
 /*  Section  1 hebergement a marseille*/
 
 body main section.hebergement {
-    padding-top: 2%;
+    margin-top: 80px;
 }
 
 body main section.hebergement div.container_hebergement {
@@ -592,7 +597,7 @@ body footer div.row div.col ul li a {
     /* recherche */
     /* info */
     body main #lesfiltres p.plusdelogements {
-        margin-top: 114px;
+        margin-top: 10px;
     }
     /*  hebergement  section 1*/
     /* les filtres */
@@ -677,7 +682,7 @@ body footer div.row div.col ul li a {
     body header nav li.inscription a {
         position: absolute;
         top: 59px;
-        right: 73px;
+        right: 29px;
     }
     body header nav ul li.navigation {
         padding-left: 61px;
@@ -697,6 +702,9 @@ body footer div.row div.col ul li a {
         font-size: x-large;
     }
     /* recherche */
+    body main div#modulerecherche input {
+        width: 257px;
+    }
     body main div#modulerecherche div#map i {
         left: 60px;
     }
@@ -733,7 +741,7 @@ body footer div.row div.col ul li a {
     }
     /*  Section  1 hebergement a marseille */
     body main section.hebergement {
-        margin-top: 266px;
+        margin-top: 221px;
         padding-top: 0px;
     }
     body main section.hebergement div.container_hebergement {
