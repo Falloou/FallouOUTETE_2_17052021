@@ -647,10 +647,12 @@
                                 body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
                                     width: 83%;
                                 }
-                                
+                                body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
+                                    width: 170px;
+                                }
                                 body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
                                     padding-top: 13px;
-                                    padding-left: 430px;
+                                    padding-left: 191px;
                                 }
                                 
                                 body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img7 {
