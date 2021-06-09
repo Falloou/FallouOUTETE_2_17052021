@@ -522,6 +522,8 @@
                         }
                         /*# smartphone*/
                         
+                        /*# smartphone*/
+                        
                         @media only screen and (max-width: 600px) {
                             /* body */
                             /* heder */
@@ -604,7 +606,7 @@
                             body main section.hebergement {
                                 margin-left: -1.6em;
                                 border-radius: 0rem;
-                                margin-top: 19em;
+                                margin-top: 15em;
                                 margin-right: 0em;
                             }
                             body main section.hebergement div.container_hebergement {
@@ -683,3 +685,5 @@
                                 margin-left: 1em;
                             }
                         }
+                        
+                        
