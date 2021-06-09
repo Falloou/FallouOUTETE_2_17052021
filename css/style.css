@@ -182,7 +182,7 @@
                         }
                         /* icon ds filtre */
                         
-                        body main .filtre div#icon i {
+                        body main .filtre i {
                             height: 44px;
                             width: 44px;
                             color: #0065fc;
@@ -191,6 +191,7 @@
                             justify-content: center;
                             align-items: center;
                             border-radius: 50%;
+                            margin-left: 0px;
                         }
                         
                         body main .filtre:hover {
@@ -198,7 +199,7 @@
                             background-color: #deebff;
                         }
                         
-                        body main .filtre:hover div#icon i {
+                        body main .filtre:hover  i {
                             color: white;
                             background-color: #0065fc;
                         }
@@ -587,10 +588,7 @@
                             body main .lesfiltres {
                                 flex-wrap: wrap;
                             }
-                            body main .filtre p {
-                                font-weight: 600;
-                                font-size: 1.4em;
-                            }
+                            
                             /* icon ds filtre */
                             body main .filtre div#icon {
                                 display: flex;
@@ -607,6 +605,7 @@
                                 margin-left: -1.6em;
                                 border-radius: 0rem;
                                 margin-top: 19em;
+                                margin-right: 0em;
                             }
                             body main section.hebergement div.container_hebergement {
                                 display: flex;
