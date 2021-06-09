@@ -525,31 +525,31 @@
                             /* body */
                             /* heder */
                             body header nav img {
-                                left: 16px;
+                                left: 1.5em;
                             }
                             /* navigation */
                             body main h1 {
-                                font-size: 26px;
-                                padding-right: 52px;
+                                font-size: 2em;
                                 font-weight: 600;
                             }
                             body main p {
-                                margin-left: 21px;
-                                font-size: large;
+                                margin-left: 1.1em;
+                                font-size: 1.4em;
                             }
                             body header nav ul {
-                                padding-top: 40px;
-                                padding-right: 0px;
+                                padding-top: 3em;
+                                width: 34em;
+                                margin-left: -2em;
                             }
                             body header nav ul li.navigation {
                                 width: 50%;
-                                padding-right: 55px;
+                                padding-right: 5em;
                                 border-bottom: solid #f2f2f2;
                             }
                             body header nav li.inscription a {
                                 position: absolute;
-                                top: 13px;
-                                right: 0px;
+                                top: 0.7em;
+                                right: 0em;
                             }
                             body header nav ul li.navigation a:hover {
                                 border-bottom: none;
@@ -561,10 +561,10 @@
                             }
                             /* recherche */
                             body main div#modulerecherche input {
-                                width: 213px;
+                                width: 17em;
                             }
                             body main div#modulerecherche div#map i {
-                                left: 27px;
+                                left: 2em;
                             }
                             body main div#modulerecherche button {
                                 display: none;
@@ -575,25 +575,21 @@
                                 border-top-left-radius: 1rem;
                             }
                             /* info */
-                            body main p.plusdelogements {
-                                margin-top: 19px;
-                            }
+                           
                             /* les filtres */
                             body main #lesfiltres {
-                                margin-left: 0px;
+                                margin-left: 1em;
                             }
-                            body main .boutonsfiltre {
-                                padding-right: 20px;
-                            }
+                            
                             body main #lesfiltres h3 {
-                                padding-left: 15px;
+                                padding-left: 1em;
                             }
                             body main .lesfiltres {
                                 flex-wrap: wrap;
                             }
                             body main .filtre p {
                                 font-weight: 600;
-                                font-size: 20px;
+                                font-size: 1.4em;
                             }
                             /* icon ds filtre */
                             body main .filtre div#icon {
@@ -602,14 +598,14 @@
                             }
                             /* info */
                             body main #lesfiltres p.plusdelogements {
-                                padding-top: 0px;
-                                padding-right: 50px;
+                                margin-top: 1em;
+                                margin-left: 0em;
                             }
                             /*  Section  1 hebergement a marseille */
                             body main section.hebergement {
-                                margin-left: -23px;
+                                margin-left: -1.6em;
                                 border-radius: 0rem;
-                                margin-top: 225px;
+                                margin-top: 15em;
                             }
                             body main section.hebergement div.container_hebergement {
                                 display: flex;
@@ -619,8 +615,21 @@
                                 width: 100%;
                                 background-color: white;
                             }
+                            body main section.hebergement div.container_hebergement div.hebergementamarseilles a.button {
+                                margin-left: 1.6em;
+                                font-weight: 700;
+                                cursor: pointer;
+                            }
                             body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col {
                                 width: 95%;
+                            }
+                            body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.titreArticle h3 {
+                                font-weight: 800;
+                                font-size: 1em;
+                            }
+                            body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.titreArticle p.paragrapher {
+                                margin-left: 0.5em;
+                                font-size: 1em;
                             }
                             body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img {
                                 padding: 66px;
@@ -632,9 +641,11 @@
                             }
                             body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
                                 width: 95%;
+                                margin-left: 1em;
                             }
                             body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
-                                width: 170px;
+                                width: 13em;
+                                margin-left: 1em;
                             }
                             body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
                                 padding-top: 13px;
@@ -659,10 +670,11 @@
                             }
                             body section.activites div.activite div.col-2 {
                                 width: 100%;
+                                margin-left: 0em;
                             }
                             body section.activites div.activite div.col .img {
-                                padding: 22px;
-                                height: 100px;
+                                padding: 2em;
+                                height: 6em;
                             }
                             /* footer */
                             body footer div.row {
@@ -670,6 +682,7 @@
                             }
                             body footer div.row div.col {
                                 width: auto;
-                                padding-top: 25px;
+                                padding-top: 1em;
+                                margin-left: 1em;
                             }
                         }
