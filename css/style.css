@@ -561,7 +561,7 @@
                             }
                             /* recherche */
                             body main div#modulerecherche input {
-                                width: 17em;
+                                width: 12em;
                             }
                             body main div#modulerecherche div#map i {
                                 left: 2em;
