@@ -538,12 +538,12 @@
                             }
                             body header nav ul {
                                 padding-top: 3em;
-                                width: 34em;
-                                margin-left: -2em;
+                                width: 100%;
+                                margin-left: 0em;
                             }
                             body header nav ul li.navigation {
                                 width: 50%;
-                                padding-right: 5em;
+                                padding-right: 2em;
                                 border-bottom: solid #f2f2f2;
                             }
                             body header nav li.inscription a {
