@@ -546,12 +546,12 @@
 
                                 body header nav ul li.navigation {
                                     width: 50%;
-                                    padding-right: 96px;
+                                    padding-right: 55px;
                                 }
                                 body header nav li.inscription a {
                                     position: absolute;
                                     top: 13px;
-                                    right: 40px;
+                                    right: 0px;
                                 }
                                 
                                 body header nav ul li.navigation a:hover {
