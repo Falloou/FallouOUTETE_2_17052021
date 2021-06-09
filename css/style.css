@@ -541,6 +541,7 @@
                                 body header nav ul {
                                     padding-top: 40px;
                                     padding-right: 0px;
+                                    padding-left: 10px;
                                 }
 
                                 body header nav ul li.navigation {
@@ -560,7 +561,7 @@
                                 /* recherche */
                                 
                                 body main div#modulerecherche input {
-                                    width: 264px;
+                                    width: 213px;
                                 }
                                 
                                 body main div#modulerecherche div#map i {
@@ -632,7 +633,7 @@
                                 }
                                 
                                 body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col {
-                                    width: 84%;
+                                    width: 95%;
                                 }
                                 
                                 body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img {
@@ -645,7 +646,7 @@
                                     border-radius: 0rem;
                                 }
                                 body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
-                                    width: 83%;
+                                    width: 95%;
                                 }
                                 body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
                                     width: 170px;
@@ -674,7 +675,7 @@
                                 }
                                 
                                 body section.activites div.activite div.col {
-                                    width: 92%;
+                                    width: 103%;
                                 }
                                 
                                 body section.activites div.activite div.col-2 {
