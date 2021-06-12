@@ -1,689 +1,849 @@
-                        * {
-                            font-family: "Raleway", "sans-serif";
-                            margin: 5px 5px 5px 5px;
-                            padding: 0px;
-                        }
-                        /* debut body */
-                        
-                        body {
-                            color: black;
-                            font-weight: 400;
-                            height: auto;
-                            font-size: 0.95em;
-                            background-color: white;
-                            font-size: 0.95em;
-                        }
-                        /* debut header */
-                        
-                        body header nav img {
-                            position: absolute;
-                        }
-                        /* debut navigation */
-                        
-                        body header nav ul {
-                            display: flex;
-                            justify-content: flex-end;
-                            margin-bottom: 50px;
-                            padding-right: 148px;
-                        }
-                        
-                        body header nav ul li.navigation {
-                            list-style: none;
-                            display: flex;
-                            -webkit-box-pack: end;
-                            -ms-flex-pack: end;
-                            justify-content: flex-end;
-                            width: 10%;
-                        }
-                        
-                        body header nav ul li.navigation a {
-                            text-decoration: none;
-                            color: black;
-                            padding-top: 20px;
-                        }
-                        /* hover navigation */
-                        
-                        body header nav ul li.navigation a:hover {
-                            margin: 0px;
-                            color: #0065fc;
-                            border-top: solid #0065fc;
-                            transition: all 30ms;
-                            padding-top: 20px;
-                        }
-                        /* navigation inscription */
-                        
-                        body header nav li.inscription {
-                            border-top: none;
-                            border-bottom: none;
-                            list-style: none;
-                            padding-top: 24px;
-                            margin-left: 40px;
-                            position: absolute;
-                            top: 11px;
-                            right: 30px;
-                        }
-                        
-                        body header nav li.inscription a {
-                            color: #0065fc;
-                            font-weight: bold;
-                            text-decoration: none;
-                        }
-                        /* debut main */
-                        
-                        body main {
-                            padding-bottom: 0;
-                            max-width: calc(100% - 0em);
-                            margin: 0;
-                        }
-                        
-                        body main h1 {
-                            margin-left: 20px;
-                            font-size: x-large;
-                        }
-                        
-                        body main p {
-                            margin-left: 25px;
-                        }
-                        /* bar de recherche*/
-                        
-                        body main div#modulerecherche {
-                            height: 50px;
-                            width: 64%;
-                            margin: 0px;
-                            display: inline-flex;
-                        }
-                        /* icon bar de recherche*/
-                        
-                        body main div#modulerecherche div#map i {
-                            position: absolute;
-                            left: 30px;
-                            height: 45px;
-                            width: 50px;
-                            background-color: #f2f2f2;
-                            justify-content: center;
-                            align-items: center;
-                            display: flex;
-                            border-bottom-left-radius: 1rem;
-                            border-top-left-radius: 1rem;
-                        }
-                        /* input bar de recherche */
-                        
-                        body main div#modulerecherche input {
-                            margin-left: 68px;
-                            height: 45px;
-                            width: 206px;
-                            border-top: 1px solid #f2f2f2;
-                            border-bottom: 1px solid #f2f2f2;
-                            border-left: 1px solid transparent;
-                            border-right: 1px solid transparent;
-                            font-weight: 800;
-                            font-size: 1.15rem;
-                            font-weight: 600;
-                            padding-left: 12px;
-                        }
-                        /* boutton bar de recherche */
-                        
-                        body main div#modulerecherche button {
-                            border: none;
-                            width: 123px;
-                            height: 45px;
-                            color: white;
-                            background-color: #0065fc;
-                            border-bottom-right-radius: 1rem;
-                            border-top-right-radius: 1rem;
-                            font-weight: 800;
-                            font-size: 1.15em;
-                            margin-left: -9px;
-                            margin-top: 15px;
-                            padding-left: 15px;
-                            padding-right: 15px;
-                        }
-                        
-                        body main div#modulerecherche button.loupe {
-                            display: none;
-                        }
-                        /* arrondi des images dans hebergement  section 1*/
-                        
-                        body main .img {
-                            border-top-left-radius: 1rem;
-                            border-top-right-radius: 1rem;
-                        }
-                        /* les filtres */
-                        
-                        body main #lesfiltres {
-                            display: flex;
-                            flex-wrap: wrap;
-                            -webkit-box-align: center;
-                            -ms-flex-align: center;
-                            align-items: center;
-                            width: 100%;
-                            height: 50px;
-                            margin-top: 30px;
-                            margin-left: 20px;
-                        }
-                        
-                        body main .boutonsfiltre {
-                            display: flex;
-                            align-content: space-between 50rem;
-                            flex-wrap: wrap;
-                        }
-                        
-                        body main .filtre {
-                            display: flex;
-                            align-items: center;
-                            margin-left: 10px;
-                            height: 37px;
-                            border-top: 2.5px solid #f2f2f2;
-                            border-right: 2.5px solid #f2f2f2;
-                            border-left: none;
-                            border-bottom: 2.5px solid #f2f2f2;
-                            border-radius: 25px;
-                            cursor: pointer;
-                        }
-                        /* icon ds filtre */
-                        
-                        body main .filtre i {
-                            height: 44px;
-                            width: 44px;
-                            color: #0065fc;
-                            background-color: #deebff;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            border-radius: 50%;
-                            margin-left: 0px;
-                        }
-                        
-                        body main .filtre:hover {
-                            color: #0065fc;
-                            background-color: #deebff;
-                        }
-                        
-                        body main .filtre:hover  i {
-                            color: white;
-                            background-color: #0065fc;
-                        }
-                        /* texte dans les filtres */
-                        
-                        body main .filtre p {
-                            font-weight: 800;
-                            font-size: 1.15em;
-                            margin-left: 2px;
-                            padding-right: 7px;
-                        }
-                        /* info les 500 les plus populaire */
-                        
-                        body main p.plusdelogements {
-                            display: inline-flex;
-                            align-items: baseline;
-                            margin-left: 20px;
-                        }
-                        /* icon info */
-                        
-                        body main p i.fa-info {
-                            font-size: 0.75em;
-                            height: 18px;
-                            width: 18px;
-                            color: #0065fc;
-                            background-color: white;
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                            border: 2px solid #f2f2f2;
-                            border-radius: 50%;
-                        }
-                        /* Info plus de 500 logement */
-                        
-                        body main p.plusdelogements {
-                            margin-top: 0px;
-                            margin-left: 20px;
-                        }
-                        /*  Section  1 hebergement a marseille*/
-                        
-                        body main section.hebergement {
-                            margin-top: 52px;
-                        }
-                        
-                        body main section.hebergement div.container_hebergement {
-                            display: flex;
-                            padding: 1%;
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.hebergementamarseilles {
-                            width: 70%;
-                            background-color: #f2f2f2;
-                            border-radius: 1rem;
-                            padding: 2%;
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.hebergementamarseilles h3 {
-                            margin: 15px 0px 10px 10px;
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv {
-                            display: flex;
-                            flex-wrap: wrap;
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col {
-                            width: 32%;
-                            border-radius: 1rem;
-                            background-color: white;
-                            cursor: pointer;
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col:hover {
-                            transition: transform 200ms;
-                            transform: scale(1.02);
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col header {
-                            padding: 22% 0%;
-                            background-position: center;
-                            text-align: center;
-                            background-size: cover;
-                        }
-                        /* les titres dans la partie hébergement a marseille */
-                        
-                        body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.titreArticle h3 {
-                            font-weight: 600;
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.titreArticle p.paragrapher {
-                            margin-left: 10px;
-                        }
-                        /* les imanges dans la partie hébergement a marseille */
-                        
-                        body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img1 {
-                            background-image: url(../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img2 {
-                            background-image: url(../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img3 {
-                            background-image: url(../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img4 {
-                            background-image: url(../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img5 {
-                            background-image: url(../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img6 {
-                            background-image: url(../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col i.fa-star {
-                            color: #0065fc;
-                            font-size: 0.7rem;
-                            letter-spacing: -12px;
-                        }
-                        /*  Section  1 hebergement a marseille partie les plus popuaires*/
-                        
-                        body main section.hebergement div.container_hebergement div.contentpopulaire {
-                            background-color: #f2f2f2;
-                            width: 30%;
-                            padding: 2%;
-                            border-radius: 1rem;
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire {
-                            display: inline-flex;
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
-                            margin: 15px 0px 10px 10px;
-                            font-weight: 600;
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
-                            padding-top: 13px;
-                            padding-left: 88px;
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.contentpopulaire .img_populaire {
-                            border-top-left-radius: 1rem;
-                            border-bottom-left-radius: 1rem;
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
-                            width: 90%;
-                            display: inline-flex;
-                            background-color: white;
-                            border-radius: 1rem;
-                            cursor: pointer;
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire:hover {
-                            transition: transform 200ms;
-                            transform: scale(1.02);
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire header {
-                            padding: 22% 0%;
-                            background-position: center;
-                            text-align: center;
-                            background-size: cover;
-                        }
-                        /* les imanges dans la partie les plus populaires */
-                        
-                        body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img7 {
-                            width: 40%;
-                            margin-bottom: 2%;
-                            background-image: url(../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img8 {
-                            width: 40%;
-                            background-image: url(../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img9 {
-                            width: 40%;
-                            background-image: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
-                        }
-                        
-                        body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire p.paragrapher {
-                            margin-left: 10px;
-                        }
-                        /* Icons etroiles hebergement a marseille dans section 1 */
-                        
-                        body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire div.titreArticle i.fa-star {
-                            color: #0065fc;
-                            font-size: 0.7rem;
-                            letter-spacing: -12px;
-                            padding-top: 18px;
-                        }
-                        /*  Section  2 activité a marseille */
-                        
-                        body section.activites h3 {
-                            margin-left: 19px;
-                        }
-                        
-                        body section.activites div.activite {
-                            width: 100%;
-                            display: inline-flex;
-                            height: 100%;
-                        }
-                        
-                        body section.activites div.activite div.col {
-                            width: 25%;
-                            border-radius: 1rem;
-                            cursor: pointer;
-                            border-radius: 1rem;
-                        }
-                        
-                        body section.activites div.activite div.col-1:hover {
-                            transition: transform 200ms;
-                            transform: scale(1.02);
-                        }
-                        
-                        body section.activites div.activite div.col-2 {
-                            width: 278px;
-                            height: 199px;
-                        }
-                        
-                        body section.activites div.activite div.col-2:hover {
-                            transition: transform 200ms;
-                            transform: scale(1.02);
-                        }
-                        
-                        body section.activites div.activite div.col header {
-                            padding: 22% 0%;
-                            background-position: center;
-                            text-align: center;
-                            background-size: cover;
-                        }
-                        /* les imanges dans activités a marseille */
-                        
-                        body section.activites div.activite div.col .img10 {
-                            height: 193px;
-                            box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
-                            background-image: url(../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
-                        }
-                        
-                        body section.activites div.activite div.col .img11 {
-                            box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
-                            background-image: url(../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
-                        }
-                        
-                        body section.activites div.activite div.col .img12 {
-                            box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
-                            background-image: url(../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
-                        }
-                        
-                        body section.activites div.activite div.col .img13 {
-                            height: 193px;
-                            box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
-                            background-image: url(../images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
-                        }
-                        
-                        body section.activites div.activite div.col .img14 {
-                            box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
-                            background-image: url(../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
-                        }
-                        
-                        body section.activites div.activite div.col .img15 {
-                            box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
-                            background-image: url(../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
-                        }
-                        
-                        body section.activites div.activite div.col div.titreArticle {
-                            border: #deebff;
-                            border-right: 2.5px solid #f2f2f2;
-                            border-left: 2.5px solid #f2f2f2;
-                            border-bottom: 2.5px solid #f2f2f2;
-                            border-bottom-right-radius: 1rem;
-                            border-bottom-left-radius: 1rem;
-                            box-shadow: 2.5px 2.5px 2.5px #f2f2f2;
-                        }
-                        
-                        body section.activites div.activite div.col div.titreArticle h3 {
-                            font-weight: 600;
-                        }
-                        /*  footer*/
-                        
-                        body footer {
-                            background-color: #f2f2f2;
-                            margin-top: 2px;
-                            margin-left: -8px;
-                            margin-right: -8px;
-                            padding: 20px 0px 20px 0px;
-                        }
-                        
-                        body footer div.row {
-                            display: flex;
-                        }
-                        
-                        body footer div.row div.col {
-                            width: 33%;
-                        }
-                        
-                        body footer div.row div.col h3 {
-                            margin-left: 10px;
-                        }
-                        
-                        body footer div.row div.col ul li {
-                            list-style: none;
-                        }
-                        
-                        body footer div.row div.col ul li a {
-                            text-decoration: none;
-                            color: black;
-                        }
-                        
-                        body footer div.row div.col ul li a {
-                            text-decoration: none;
-                        }
-                        /*# smartphone*/
-                        
-                        /*# smartphone*/
-                        
-                        @media only screen and (max-width: 600px) {
-                            /* body */
-                            /* heder */
-                            body header nav img {
-                                left: 1.5em;
-                            }
-                            /* navigation */
-                            body main h1 {
-                                font-size: 1.6em;
-                                font-weight: 600;
-                            }
-                            body main p {
-                                margin-left: 1.1em;
-                                font-size: 1.4em;
-                            }
-                            body header nav ul {
-                                padding-top: 3em;
-                                width: 23em;
-                                margin-left: 0em;
-                            }
-                            body header nav ul li.navigation {
-                                width: 50%;
-                                padding-right: 2em;
-                                border-bottom: solid #f2f2f2;
-                            }
-                            body header nav li.inscription a {
-                                position: absolute;
-                                top: 0.7em;
-                                right: -2em;
-                            }
-                            body header nav ul li.navigation a:hover {
-                                border-bottom: none;
-                                border-top: none;
-                            }
-                            body header nav ul li.navigation:hover {
-                                border-bottom: solid #0065fc;
-                                border-top: none;
-                            }
-                            /* recherche */
-                            body main div#modulerecherche input {
-                                width: 12em;
-                            }
-                            body main div#modulerecherche div#map i {
-                                left: 2em;
-                            }
-                            body main div#modulerecherche button {
-                                display: none;
-                            }
-                            body main div#modulerecherche button.loupe {
-                                display: block;
-                                border-bottom-left-radius: 1rem;
-                                border-top-left-radius: 1rem;
-                            }
-                            /* info */
-                           
-                            /* les filtres */
-                            body main #lesfiltres {
-                                margin-left: 1em;
-                            }
-                            
-                            body main #lesfiltres h3 {
-                                padding-left: 1em;
-                            }
-                            body main .lesfiltres {
-                                flex-wrap: wrap;
-                            }
-                            
-                            /* icon ds filtre */
-                            body main .filtre div#icon {
-                                display: flex;
-                                flex-wrap: wrap;
-                            }
-                            /* info */
-                            body main #lesfiltres p.plusdelogements {
-                                margin-top: 1em;
-                                margin-left: 0em;
-                                font-size: 1.1em;
-                            }
-                            /*  Section  1 hebergement a marseille */
-                            body main section.hebergement {
-                                margin-left: -1.6em;
-                                border-radius: 0rem;
-                                margin-top: 15em;
-                                margin-right: 0em;
-                            }
-                            body main section.hebergement div.container_hebergement {
-                                display: flex;
-                                flex-direction: column-reverse;
-                            }
-                            body main section.hebergement div.container_hebergement div.hebergementamarseilles {
-                                width: 100%;
-                                background-color: white;
-                            }
-                            body main section.hebergement div.container_hebergement div.hebergementamarseilles a.button {
-                                margin-left: 1.6em;
-                                font-weight: 700;
-                                cursor: pointer;
-                            }
-                            body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col {
-                                width: 95%;
-                            }
-                            body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.titreArticle h3 {
-                                font-weight: 800;
-                                font-size: 1em;
-                            }
-                            body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.titreArticle p.paragrapher {
-                                margin-left: 0.5em;
-                                font-size: 1em;
-                            }
-                            body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img {
-                                padding: 66px;
-                            }
-                            /*  Section  1 hebergement a marseille partie les plus popuaires*/
-                            body main section.hebergement div.container_hebergement div.contentpopulaire {
-                                width: 100%;
-                                border-radius: 0rem;
-                            }
-                            body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
-                                width: 95%;
-                                margin-left: 1em;
-                            }
-                            body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
-                                width: 13em;
-                                margin-left: 1em;
-                            }
-                            
-                            body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img7 {
-                                padding: 30px;
-                            }
-                            body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img8 {
-                                padding: 30px;
-                            }
-                            body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img9 {
-                                padding: 30px;
-                            }
-                            /*  Section  2 activité a marseille */
-                            body section.activites div.activite {
-                                display: block;
-                                width: 91%;
-                            }
-                            body section.activites div.activite div.col {
-                                width: 103%;
-                            }
-                            body section.activites div.activite div.col-2 {
-                                width: 100%;
-                                margin-left: 0em;
-                            }
-                            body section.activites div.activite div.col .img {
-                                padding: 2em;
-                                height: 6em;
-                            }
-                            /* footer */
-                            body footer div.row {
-                                display: block;
-                            }
-                            body footer div.row div.col {
-                                width: auto;
-                                padding-top: 1em;
-                                margin-left: 1em;
-                            }
-                        }
-                        
-                        
+* {
+    font-family: "Raleway", "sans-serif";
+    margin: 0;
+    padding: 0px;
+}
+
+
+/* debut body */
+
+body {
+    color: black;
+    font-weight: 400;
+    height: auto;
+    font-size: 0.95em;
+    background-color: white;
+    font-size: 0.95em;
+}
+
+
+/* debut header */
+
+body header {
+    position: relative;
+    max-width: 1440px;
+    height: 90px;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+body header nav {
+    position: absolute;
+    right: 165px;
+    display: flex;
+}
+
+body header nav li a.navigation {
+    padding: 45px 20px 0px 20px;
+    border-top: 2px solid transparent;
+    height: 110px;
+    margin-right: 55px;
+    text-align: center;
+    text-decoration: none;
+}
+
+body header nav li {
+    list-style: none;
+}
+
+body header nav li a:hover {
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+    transition: all 350ms;
+}
+
+body header div.inscrire {
+    padding: 87px 20px 0px 20px;
+    height: 110px;
+    text-align: right;
+    cursor: pointer;
+    color: #0065fc;
+    font-weight: 800;
+    width: 120px;
+    margin-right: 3.8%;
+}
+
+#logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+}
+
+#logo img {
+    height: 42px;
+    margin-left: 3.8%;
+    cursor: pointer;
+}
+
+
+/* debut main */
+
+body main {
+    padding-bottom: 0;
+    max-width: calc(100% - 0em);
+    margin: 0;
+}
+
+body main h1 {
+    margin-left: 49px;
+    font-size: large;
+    margin-bottom: 2%;
+}
+
+body main p {
+    margin-left: 49px;
+}
+
+
+/* bar de recherche*/
+
+#modulerecherche {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f2f2f2;
+    width: 400px;
+    height: 45px;
+    border-radius: 15px;
+    margin-top: 25px;
+    background-color: white;
+    margin-left: 49px;
+}
+
+.iconmap {
+    position: absolute;
+    left: 0;
+    height: 45px;
+    width: 45px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+input {
+    display: block;
+    margin: 0px 120px 0px 45px;
+    height: 45px;
+    width: 235px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.button {
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 120px;
+    background-color: #0065fc;
+    border-radius: 0px 15px 15px 0px;
+    border: 1px solid transparent;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: white;
+}
+
+body main div#modulerecherche p {
+    margin-left: 0px;
+}
+
+body main div#modulerecherche .loupe {
+    display: none;
+}
+
+
+/* arrondi des images dans hebergement  section 1*/
+
+body main .img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+
+/* les filtres */
+
+body main #lesfiltres {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-left: 49px;
+}
+
+body main .boutonsfiltre {
+    display: flex;
+    align-content: space-between 50rem;
+    flex-wrap: wrap;
+    width: 82%;
+}
+
+body main .filtre {
+    display: flex;
+    align-items: center;
+    margin-left: 26px;
+    height: 42px;
+    border-top: 2.5px solid #f2f2f2;
+    border-right: 2.5px solid #f2f2f2;
+    border-left: none;
+    border-bottom: 2.5px solid #f2f2f2;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+/* icon ds filtre */
+
+body main .filtre i {
+    height: 44px;
+    width: 44px;
+    color: #0065fc;
+    background-color: #deebff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 0px;
+}
+
+body main .filtre:hover {
+    color: #0065fc;
+    background-color: #deebff;
+}
+
+body main .filtre:hover i {
+    color: white;
+    background-color: #0065fc;
+}
+
+
+/* texte dans les filtres */
+
+body main .filtre p {
+    font-weight: 800;
+    font-size: 1.15em;
+    margin-left: 2px;
+    padding-right: 7px;
+}
+
+
+/* info les 500 les plus populaire */
+
+body main p.plusdelogements {
+    display: inline-flex;
+    align-items: baseline;
+    margin-left: 0px;
+    margin-top: 2%;
+}
+
+
+/* icon info */
+
+body main p i.fa-info {
+    font-size: 0.75em;
+    height: 18px;
+    width: 18px;
+    color: #0065fc;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    border-radius: 50%;
+}
+
+
+/*  Section  1 hebergement a marseille*/
+
+body main section.hebergement {
+    margin-top: 5%;
+    margin-left: 41px;
+    margin-right: 41px;
+}
+
+body main p.afficherplus {
+    margin-left: 8px;
+    font-size: large;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+body main section.hebergement div.container_hebergement {
+    display: flex;
+    padding: 1%;
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles {
+    width: 70%;
+    background-color: #f2f2f2;
+    border-radius: 1rem;
+    padding: 2%;
+    margin-right: 25px;
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles a.button {
+    margin-left: 1.6em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles h3 {
+    margin: 11px 0px 15px 10px;
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col {
+    width: 31%;
+    border-radius: 1rem;
+    background-color: white;
+    cursor: pointer;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col:hover {
+    transition: transform 200ms;
+    transform: scale(1.02);
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col header {
+    padding: 9% 0%;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+}
+
+
+/* les titres dans la partie hébergement a marseille */
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.titreArticle h3 {
+    font-weight: 600;
+    margin-bottom: 0.2em;
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.titreArticle p.paragrapher {
+    margin-left: 0.6em;
+}
+
+
+/* les imanges dans la partie hébergement a marseille */
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img {
+    background-image: url(../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img2 {
+    background-image: url(../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img3 {
+    background-image: url(../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img4 {
+    background-image: url(../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img5 {
+    background-image: url(../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img6 {
+    background-image: url(../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col i.fas {
+    color: #0065fc;
+    font-size: 0.7rem;
+    letter-spacing: -1em;
+    margin-left: 0.8em;
+}
+
+body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col i.far {
+    color: #f2f2f2;
+}
+
+
+/*  Section  1 hebergement a marseille partie les plus popuaires*/
+
+body main section.hebergement div.container_hebergement div.contentpopulaire {
+    background-color: #f2f2f2;
+    width: 30%;
+    padding: 2%;
+    border-radius: 1rem;
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire {
+    display: inline-flex;
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
+    margin: 15px 0px 10px 10px;
+    font-weight: 600;
+    margin-bottom: 0.2em;
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire div.populaire div.titreArticle h3 {
+    font-weight: 500;
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
+    padding-top: 13px;
+    padding-left: 88px;
+    font-size: larger;
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire .img_populaire {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
+    width: 90%;
+    display: inline-flex;
+    background-color: white;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire:hover {
+    transition: transform 200ms;
+    transform: scale(1.02);
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire header {
+    padding: 8% 0%;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+}
+
+
+/* les imanges dans la partie les plus populaires */
+
+body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img7 {
+    width: 43%;
+    margin-bottom: 2%;
+    background-image: url(../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img8 {
+    width: 43%;
+    background-image: url(../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img9 {
+    width: 43%;
+    background-image: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire p.paragrapher {
+    margin-left: 10px;
+}
+
+
+/* Icons etroiles hebergement a marseille dans section 1 */
+
+body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire div.titreArticle i.fa-star {
+    color: #0065fc;
+    font-size: 0.7rem;
+    letter-spacing: -1em;
+    margin-left: 0.8em;
+    margin-top: 5.2em;
+}
+
+body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire div.titreArticle i.far {
+    color: #f2f2f2;
+}
+
+
+/*  Section  2 activité a marseille */
+
+body section.activites {
+    margin-left: 31px;
+    margin-right: 31px;
+}
+
+body section.activites h3 {
+    margin-left: 24px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+body section.activites h2 {
+    margin-left: 24px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    font-size: 1em;
+}
+
+body section.activites div.activite {
+    width: 100%;
+    display: inline-flex;
+    height: 100%;
+}
+
+body section.activites div.activite div.col {
+    width: 24%;
+    border-radius: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+body section.activites div.activite div.col-1:hover {
+    transition: transform 200ms;
+    transform: scale(1.02);
+}
+
+body section.activites div.activite div.col-2 {
+    width: 100%;
+    padding-bottom: 7%;
+}
+
+body section.activites div.activite div.col-2:hover {
+    transition: transform 200ms;
+    transform: scale(1.02);
+}
+
+body section.activites div.activite div.col header {
+    padding: 12% 0%;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+}
+
+
+/* les imanges dans activités a marseille */
+
+body section.activites div.activite div.col .img10 {
+    height: 294px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+    background-image: url(../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+}
+
+body section.activites div.activite div.col .img11 {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+    background-image: url(../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+}
+
+body section.activites div.activite div.col .img12 {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+    background-image: url(../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+}
+
+body section.activites div.activite div.col .img13 {
+    height: 294px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+    background-image: url(../images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+}
+
+body section.activites div.activite div.col .img14 {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+    background-image: url(../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+}
+
+body section.activites div.activite div.col .img15 {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+    background-image: url(../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+}
+
+body section.activites div.activite div.col div.titreArticle {
+    border: #deebff;
+    border-right: 2.5px solid #f2f2f2;
+    border-left: 2.5px solid #f2f2f2;
+    border-bottom: 2.5px solid #f2f2f2;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    box-shadow: 2.5px 2.5px 2.5px #f2f2f2;
+    width: 100%;
+    margin-left: 0px;
+}
+
+body section.activites div.activite div.col div.titreArticle h3 {
+    font-weight: 700;
+    font-size: 90%;
+}
+
+
+/*  footer*/
+
+body footer {
+    background-color: #f2f2f2;
+    margin-top: 3%;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 20px 0px 20px 0px;
+}
+
+body footer div.row {
+    display: flex;
+}
+
+body footer div.container {
+    margin-left: 49px;
+}
+
+body footer div.row div.col {
+    width: 33%;
+}
+
+body footer div.row div.col h3 {
+    margin-left: 10px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+body footer div.row div.col ul li {
+    list-style: none;
+    margin-left: 10px;
+    margin-bottom: 1%;
+}
+
+body footer div.row div.col ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+body footer div.row div.col ul li a {
+    text-decoration: none;
+}
+
+
+/*# smartphone*/
+
+
+/*# smartphone*/
+
+@media only screen and (max-width: 600px) {
+    /* body */
+    /* heder */
+    /* navigation */
+    body header nav {
+        right: 0em;
+        top: 6em;
+        width: 100%;
+        justify-content: space-around;
+    }
+    body header nav:hover {
+        border-bottom: solid #f2f2f2;
+    }
+    body header nav li:hover {
+        border-bottom: solid #0065fc;
+    }
+    body header nav li a.navigation {
+        padding: 2em 3em 1em 1em;
+        border-top: none;
+        border-bottom: 2px solid transparent;
+        margin: 0;
+        width: 100%;
+        height: 45px;
+        text-align: center;
+    }
+    body header div.inscrire {
+        margin-right: 0em;
+    }
+    body main h1 {
+        font-size: 1.5em;
+        font-weight: 600;
+        margin-top: 1em;
+        margin-left: 0.8em;
+        margin-right: 0.8em;
+    }
+    body main p {
+        font-size: 1.1em;
+        margin-left: 1.1em;
+        margin-right: 0.8em;
+    }
+    /* recherche */
+    body main div#modulerecherche {
+        margin-left: 1.1em;
+        width: 87%;
+    }
+    body main div#modulerecherche input {
+        width: 13em;
+        margin-left: 9em;
+    }
+    body main div#modulerecherche div#map i {
+        left: 2em;
+    }
+    body main div#modulerecherche .button .rechercher {
+        display: none;
+    }
+    body main div#modulerecherche .button {
+        border-radius: 1rem;
+        width: 3em;
+    }
+    body main div#modulerecherche .loupe {
+        display: block;
+    }
+    /* info */
+    /* les filtres */
+    body main #lesfiltres {
+        margin-left: 0em;
+    }
+    body main #lesfiltres h3 {
+        padding-left: 1em;
+        margin-left: 0.4em;
+        margin-bottom: 1em;
+    }
+    body main .lesfiltres {
+        flex-wrap: wrap;
+        margin-left: 1.1em;
+    }
+    body main .boutonsfiltre {
+        width: 91%;
+    }
+    /* icon ds filtre */
+    body main .filtre div#icon {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    body main .filtre p {
+        margin-right: 1em;
+        padding-left: 1em;
+        padding-right: 0.5em;
+        font-size: 1.2em;
+        font-weight: 900;
+    }
+    /* info */
+    body main p i.fa-info {
+        font-size: 0.6em;
+        margin-right: 0.5em;
+    }
+    body main #lesfiltres p.plusdelogements {
+        margin-top: 1em;
+        margin-left: 1.5em;
+        font-size: 1.1em;
+    }
+    /*  Section  1 hebergement a marseille */
+    body main section.hebergement {
+        margin-left: -1.6em;
+        border-radius: 0rem;
+        margin-top: 17em;
+        margin-right: 0em;
+        margin-right: -1em;
+    }
+    body main section.hebergement div.container_hebergement {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    body main section.hebergement div.container_hebergement div.hebergementamarseilles {
+        width: 100%;
+        background-color: white;
+    }
+    body main section.hebergement div.container_hebergement div.hebergementamarseilles h3 {
+        margin-left: 1.6em;
+    }
+    body main section.hebergement div.container_hebergement div.hebergementamarseilles a.button {
+        margin-left: 1.6em;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col {
+        width: 83%;
+        margin-left: 1.6em;
+        margin-right: 1.6em;
+    }
+    body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col .img {
+        padding: 1.5em;
+    }
+    body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.titreArticle h3 {
+        font-weight: 800;
+        font-size: 1em;
+    }
+    body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.titreArticle p.paragrapher {
+        margin-left: 0.5em;
+        font-size: 1em;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire header {
+        padding: 6% 0%;
+        margin: 0.5em;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire .img_populaire {
+        padding: 1.5em;
+    }
+    /*  Section  1 hebergement a marseille partie les plus popuaires*/
+    body main section.hebergement div.container_hebergement div.contentpopulaire {
+        width: 100%;
+        border-radius: 0rem;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
+        width: 88%;
+        margin-left: 1.6em;
+        margin-right: 1.6em;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
+        width: 13em;
+        margin-left: 1.5em;
+    }
+    /*  Section  2 activité a marseille */
+    body section.activites h3 {
+        margin-left: -1em;
+        margin-top: 9%;
+        margin-bottom: 11%;
+    }
+    body section.activites div.activite {
+        margin-left: 0em;
+    }
+    body section.activites div.activite {
+        display: block;
+        width: 106%;
+        margin-left: -1em;
+        padding-right: 0em;
+    }
+    body section.activites div.activite div.col {
+        width: 100%;
+    }
+    body section.activites div.activite div.col-2 {
+        width: 100%;
+        margin-left: 0em;
+        margin-top: 2em;
+    }
+    body section.activites div.activite div.col .img {
+        padding: 2em;
+        height: 6em;
+        padding: 1.5em;
+    }
+    /* footer */
+    body footer {
+        margin-right: -3em;
+    }
+    body footer div.row {
+        display: block;
+    }
+    body footer div.row div.col {
+        width: auto;
+        padding-top: 1em;
+        margin-left: 1em;
+    }
+}

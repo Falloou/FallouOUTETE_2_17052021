@@ -17,22 +17,17 @@
 
 <body>
     <!-- site-header  -->
-    <header class="site-header">
-        <!--  navigation  -->
+    <header>
+        <div id="logo">
+            <img src="../images/logo/Reservia.svg" alt="logo Reservia">
+            <div class="inscrire">S'inscrire</div>
+        </div>
         <nav>
-            <!-- logo site  -->
-            <img src="../images/logo/Reservia.svg" alt="Reservia" />
-            <ul>
-                <li class="navigation">
-                    <a href="#hebergement" class="navigation">Hébergements</a>
-                </li>
-                <li class="navigation">
-                    <a href="#activites" class="navigation">Activités</a>
-                </li>
-                <!--  navigation inscription  -->
-            </ul>
-            <li class="inscription">
-                <a href="#" class="navigation">S'inscrire</a>
+            <li>
+                <a href="#lesherbergements" class="navigation">Hébergements</a>
+            </li>
+            <li>
+                <a href="#activités" class="navigation">Activités</a>
             </li>
         </nav>
     </header>
@@ -43,21 +38,22 @@
         <p>En plein centre ville ou en pleine nature</p>
         <!-- Debut recherche  -->
         <div id="modulerecherche">
+            <i class="fas fa-map-marker-alt iconmap"></i>
             <form>
-                <div id="map">
-                    <i class="fas fa-map-marker-alt"></i>
-                </div>
-                <input type="search" name="champdesaisie" id="champdesaisie" placeholder="Marseille, France" />
+                <input type="search" name="champdesaisie" 
+                id="champdesaisie" 
+                placeholder="Marseille, France">
             </form>
-            <button>Rechercher</button>
-            <button class="loupe"><i class="fas fa-search"></i></button>
+            <div class="button"><p class="rechercher">Rechercher</p>
+                <i class="fas fa-search loupe"></i>
+            </div>
         </div>
         <!-- Fin recherche  -->
         <div id="lesfiltres">
             <h3>Filtres</h3>
             <div class="boutonsfiltre">
-                <div class="filtre">         
-                    <i class="fas fa-money-bill-wave"></i>            
+                <div class="filtre">
+                    <i class="fas fa-money-bill-wave"></i>
                     <p class=" textefiltre ">Économique</p>
                 </div>
                 <div class="filtre ">
@@ -87,14 +83,14 @@
                         <div class="col ">
                             <header class="img1 img "></header>
                             <div class="titreArticle">
-                                <h3>Auberge la cannebière</h3>
+                                <h3>Auberge la Cannebière</h3>
                                 <p class="paragrapher ">Nuit a partir de 25€</p>
                                 <div>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
+                                    <i class="fas fa-star far"></i>
                                 </div>
                             </div>
                         </div>
@@ -122,7 +118,7 @@
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
+                                    <i class="fas fa-star far"></i>
                                 </div>
                             </div>
                         </div>
@@ -135,8 +131,8 @@
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
+                                    <i class="fas fa-star far"></i>
+                                    <i class="fas fa-star far"></i>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +146,7 @@
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
-                                    <i class="far fa-star"></i>
+                                    <i class="fas fa-star far"></i>
                                 </div>
                             </div>
                         </div>
@@ -170,7 +166,7 @@
                         </div>
                     </div>
 
-                    <a class="button ">Afficher plus</a>
+                    <p class="afficherplus">Afficher plus</p>
                 </div>
                 <!--Debut hebergement  a marseille  div les plus populaire-->
                 <div class="row contentpopulaire ">
@@ -204,7 +200,7 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
+                                <i class="fas fa-star far"></i>
                             </div>
                         </div>
                     </div>
@@ -213,12 +209,13 @@
                         <div class="titreArticle">
                             <h3>Hôtel Tout bleu et blanc</h3>
                             <p class="paragrapher ">Nuit a partir de 68€</p>
+
                             <div>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
+                                <i class="fas fa-star far"></i>
                             </div>
                         </div>
                     </div>
@@ -236,7 +233,7 @@
                 <div class="col col-1 ">
                     <header class="img10 img "></header>
                     <div class="titreArticle">
-                        <h3>Vieux Port</h3>
+                        <h2>Vieux Port</h2>
                     </div>
                 </div>
                 <div class="col  ">
@@ -244,13 +241,13 @@
                         <div class="col-2 ">
                             <header class="img11 img "></header>
                             <div class="titreArticle">
-                                <h3>Fort de Pomègues</h3>
+                                <h2>Fort de Pomègues</h2>
                             </div>
                         </div>
                         <div class="col-2 ">
                             <header class="img12 img "></header>
                             <div class="titreArticle">
-                                <h3>Iles du Frioul</h3>
+                                <h2>Iles du Frioul</h2>
                             </div>
                         </div>
                     </div>
@@ -259,7 +256,7 @@
                 <div class="col col-1">
                     <header class="img13 img "></header>
                     <div class="titreArticle">
-                        <h3>Parc National des Calanques</h3>
+                        <h2>Parc National des Calanques</h2>
                     </div>
                 </div>
                 <div class="col  ">
@@ -267,13 +264,13 @@
                         <div class="col-2 ">
                             <header class="img14 img "></header>
                             <div class="titreArticle">
-                                <h3>Notre-Dame-de-la-Garde</h3>
+                                <h2>Notre-Dame-de-la-Garde</h2>
                             </div>
                         </div>
                         <div class="col-2 ">
                             <header class="img15 img "></header>
                             <div class="titreArticle">
-                                <h3>Parc longchamp</h3>
+                                <h2>Parc longchamp</h2>
                             </div>
                         </div>
                     </div>
