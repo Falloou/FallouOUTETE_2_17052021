@@ -641,9 +641,6 @@ body footer div.row div.col ul li a {
 
 /*# smartphone*/
 
-
-/*# smartphone*/
-
 @media only screen and (max-width: 600px) {
     /* body */
     /* heder */
@@ -845,5 +842,17 @@ body footer div.row div.col ul li a {
         width: auto;
         padding-top: 1em;
         margin-left: 1em;
+    }
+}
+
+
+/*# smartphone*/
+
+@media only screen and (max-width: 1000px) {
+    body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col {
+        width: 100%;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire header {
+        padding: 5% 0%;
     }
 }
