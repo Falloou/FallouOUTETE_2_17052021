@@ -686,7 +686,7 @@ body footer div.row div.col ul li a {
         font-size: x-large;
     }
     body main p.plusdelogements {
-        font-size: x-large;
+        font-size: large;
     }
     body main section.hebergement {
         margin-top: 14%;
@@ -721,7 +721,7 @@ body footer div.row div.col ul li a {
         font-size: large;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
-        padding-left: 25.5em;
+        padding-left: 24.5em;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire div.titreArticle i.fa-star {
         margin-top: 34%;
@@ -975,13 +975,25 @@ body footer div.row div.col ul li a {
     }
     body section.activites div.activite div.col {
         width: 100%;
+        height: 26em;
+    }
+    body section.activites div.activite div.col-1 {
+        margin-bottom: -45%;
     }
     body section.activites div.activite div.col-2 {
         width: 100%;
         margin-left: 0em;
-        margin-top: 2em;
+        margin-top: 4%;
+        margin-bottom: -5%;
     }
-    body section.activites div.activite div.col .img {
+    body section.activites div.activite div.col div.row {
+        display: block;
+    }
+    body section.activites div.activite div.col .imgcol_1 {
+        height: 6em;
+        padding: 1.5em;
+    }
+    body section.activites div.activite div.col .imgcol_2 {
         height: 6em;
         padding: 1.5em;
     }
