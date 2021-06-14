@@ -982,7 +982,7 @@ body footer div.row div.col ul li a {
     }
     /*  Section  2 activité a marseille */
     body section.activites h3 {
-        margin-left: -1em;
+        margin-left: -0.5em;
         margin-top: 9%;
         margin-bottom: 11%;
     }
