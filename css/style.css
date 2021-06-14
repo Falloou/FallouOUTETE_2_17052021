@@ -71,7 +71,7 @@ body header div.inscrire {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1440px;
+    width: 100%;
 }
 
 #logo img {
@@ -687,9 +687,21 @@ body footer div.row div.col ul li a {
     }
     body main p.plusdelogements {
         font-size: large;
+        margin-left: 1.5em;
+    }
+    body main #lesfiltres {
+        display: block;
+        margin-left: 1em;
+    }
+    body main #lesfiltres h3 {
+        margin-left: 1.8em;
+        margin-bottom: 2%;
+    }
+    body main .filtre {
+        margin-bottom: 2%;
     }
     body main section.hebergement {
-        margin-top: 14%;
+        margin-top: 21%;
         margin-left: 0em;
         margin-right: 0em;
     }
@@ -740,8 +752,10 @@ body footer div.row div.col ul li a {
     }
     body section.activites div.activite {
         display: block;
+        margin-top: 9%;
     }
     body section.activites div.activite div.col {
+        margin-bottom: 0%;
         width: 100%;
         height: 20em;
     }
@@ -752,19 +766,13 @@ body footer div.row div.col ul li a {
     }
     body section.activites div.activite div.col-1 {
         width: 95%;
-        margin-top: -2em;
+        margin-top: 0em;
     }
     body section.activites div.activite div.col-2 div.titreArticle {
         PADDING-BOTTOM: 5%;
     }
     body section.activites div.activite div.col div.row {
         display: flex;
-    }
-    body section.activites div.activite div.col {
-        margin-bottom: 6%;
-    }
-    body section.activites div.activite div.activiteinverse {
-        flex-direction: row-reverse;
     }
     body section.activites div.activite div.col .imgcol_1 {
         height: 0.5em;
@@ -780,6 +788,9 @@ body footer div.row div.col ul li a {
 @media only screen and (max-width: 600px) {
     /* body */
     /* heder */
+    #logo {
+        width: 98%;
+    }
     /* navigation */
     body header nav {
         right: 0em;
@@ -824,7 +835,7 @@ body footer div.row div.col ul li a {
     }
     body main div#modulerecherche input {
         width: 13em;
-        margin-left: 2em;
+        margin-left: 16%;
     }
     body main div#modulerecherche div#map i {
         left: 2em;
@@ -882,7 +893,7 @@ body footer div.row div.col ul li a {
     body main section.hebergement {
         margin-left: -1.6em;
         border-radius: 0rem;
-        margin-top: 17em;
+        margin-top: 19em;
         margin-right: 0em;
         margin-right: -1em;
     }
@@ -924,6 +935,9 @@ body footer div.row div.col ul li a {
     body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.titreArticle div {
         margin-left: 1em;
     }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire {
+        WIDTH: 92%;
+    }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire header {
         padding: 6% 0%;
         margin: 0.5em;
@@ -952,12 +966,12 @@ body footer div.row div.col ul li a {
         border-radius: 0rem;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
-        width: 88%;
+        width: 87%;
         margin-left: 1.6em;
         margin-right: 1.6em;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
-        width: 13em;
+        width: 12em;
         margin-left: 1.5em;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire p.paragrapher {
@@ -987,6 +1001,7 @@ body footer div.row div.col ul li a {
     }
     body section.activites div.activite div.col-1 {
         margin-bottom: -45%;
+        margin-top: 14%;
     }
     body section.activites div.activite div.col-2 {
         width: 100%;
@@ -1008,6 +1023,7 @@ body footer div.row div.col ul li a {
     /* footer */
     body footer {
         margin-right: -3em;
+        margin-top: 17%;
     }
     body footer div.row {
         display: block;
@@ -1020,7 +1036,19 @@ body footer div.row div.col ul li a {
 }
 
 @media only screen and (max-width: 400px) {
+    #logo {
+        width: 96%;
+    }
+    body main div#modulerecherche {
+        width: 84%;
+    }
+    body main div#modulerecherche input {
+        margin-left: 9em;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
+        width: 12em;
+    }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
-        padding-left: 2.6em;
+        margin-left: 2%;
     }
 }
