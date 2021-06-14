@@ -704,11 +704,8 @@ body footer div.row div.col ul li a {
     body main section.hebergement div.container_hebergement div.hebergementamarseilles {
         width: 100%;
     }
-    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
-        width: 97%;
-    }
     body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col {
-        width: 48%;
+        width: 46%;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire header {
         padding: 5% 0%;
@@ -716,12 +713,18 @@ body footer div.row div.col ul li a {
     h4 {
         font-size: large;
     }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
+        width: 97%;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire {
+        WIDTH: 97%;
+    }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire p.paragrapher {
         margin-left: 0.6em;
         font-size: large;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
-        padding-left: 24.5em;
+        padding-left: 74%;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire div.titreArticle i.fa-star {
         margin-top: 34%;
@@ -745,9 +748,14 @@ body footer div.row div.col ul li a {
     body section.activites div.activite div.col-2 {
         width: 46%;
         padding-right: 3%;
+        margin-top: -2.5em;
     }
     body section.activites div.activite div.col-1 {
         width: 95%;
+        margin-top: -2em;
+    }
+    body section.activites div.activite div.col-2 div.titreArticle {
+        PADDING-BOTTOM: 5%;
     }
     body section.activites div.activite div.col div.row {
         display: flex;
@@ -874,7 +882,7 @@ body footer div.row div.col ul li a {
     body main section.hebergement {
         margin-left: -1.6em;
         border-radius: 0rem;
-        margin-top: 13em;
+        margin-top: 17em;
         margin-right: 0em;
         margin-right: -1em;
     }
@@ -956,7 +964,7 @@ body footer div.row div.col ul li a {
         font-size: inherit;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
-        padding-left: 11.6em;
+        padding-left: 41%;
     }
     /*  Section  2 activité a marseille */
     body section.activites h3 {
@@ -1008,5 +1016,11 @@ body footer div.row div.col ul li a {
         width: auto;
         padding-top: 1em;
         margin-left: 1em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
+        padding-left: 2.6em;
     }
 }
