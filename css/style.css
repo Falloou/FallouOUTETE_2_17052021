@@ -196,7 +196,6 @@ body main #lesfiltres {
 
 body main .boutonsfiltre {
     display: flex;
-    align-content: space-between 50rem;
     flex-wrap: wrap;
     width: 82%;
 }
@@ -278,13 +277,17 @@ body main p i.fa-info {
 
 /*  Section  1 hebergement a marseille*/
 
+span {
+    font-weight: 600;
+}
+
 body main section.hebergement {
     margin-top: 5%;
     margin-left: 41px;
     margin-right: 41px;
 }
 
-body main p.afficherplus {
+body main p#afficherplus {
     margin-left: 8px;
     font-size: large;
     font-weight: 700;
@@ -326,7 +329,7 @@ body main section.hebergement div.container_hebergement div.hebergementamarseill
     cursor: pointer;
     margin-right: 2%;
     margin-bottom: 2%;
-    box-shadow: #f2f2f2;
+    box-shadow: 2.5px 2.5px 2.5px #f2f2f2;
 }
 
 body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col:hover {
@@ -649,7 +652,7 @@ body footer div.row {
     display: flex;
 }
 
-body footer div.container {
+body footer div#container {
     margin-left: 49px;
 }
 
@@ -708,7 +711,7 @@ body footer div.row div.col ul li a {
     body main section.hebergement div.container_hebergement {
         display: flex;
         flex-direction: column-reverse;
-        widows: 100%;
+        width: 100%;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire {
         width: 100%;
@@ -800,6 +803,10 @@ body footer div.row div.col ul li a {
     }
     body header nav:hover {
         border-bottom: solid #f2f2f2;
+    }
+    body header nav li {
+        list-style: none;
+        margin-bottom: -0.2em;
     }
     body header nav li:hover {
         border-bottom: solid #0065fc;
@@ -897,7 +904,7 @@ body footer div.row div.col ul li a {
         margin-right: 0em;
         margin-right: -1em;
     }
-    body main p.afficherplus {
+    body main p#afficherplus {
         padding-left: 1.5em;
     }
     body main section.hebergement div.container_hebergement {
