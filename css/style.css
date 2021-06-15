@@ -78,6 +78,7 @@ body header div.inscrire {
     height: 42px;
     margin-left: 3.8%;
     cursor: pointer;
+    margin-top: -1%;
 }
 
 
@@ -290,7 +291,7 @@ body main section.hebergement {
 body main p#afficherplus {
     margin-left: 8px;
     font-size: large;
-    font-weight: 700;
+    font-weight: 600;
     cursor: pointer;
 }
 
@@ -315,6 +316,8 @@ body main section.hebergement div.container_hebergement div.hebergementamarseill
 
 body main section.hebergement div.container_hebergement div.hebergementamarseilles h3 {
     margin: 11px 0px 15px 10px;
+    font-weight: 600;
+    margin-bottom: 0.2em;
 }
 
 body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv {
@@ -534,6 +537,7 @@ body section.activites h3 {
     margin-left: 24px;
     margin-top: 4%;
     margin-bottom: 2%;
+    font-weight: 600;
 }
 
 body section.activites h2 {
@@ -729,7 +733,7 @@ body footer div.row div.col ul li a {
         width: 97%;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire {
-        WIDTH: 97%;
+        width: 97%;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire p.paragrapher {
         margin-left: 0.6em;
@@ -769,7 +773,7 @@ body footer div.row div.col ul li a {
         margin-top: 0em;
     }
     body section.activites div.activite div.col-2 div.titreArticle {
-        PADDING-BOTTOM: 5%;
+        padding-bottom: 5%;
     }
     body section.activites div.activite div.col div.row {
         display: flex;
@@ -821,14 +825,14 @@ body footer div.row div.col ul li a {
         margin-right: 0em;
     }
     body main h1 {
-        font-size: 2em;
+        font-size: 1.8em;
         font-weight: 600;
         margin-top: 1em;
         margin-left: 0.8em;
         margin-right: 0.8em;
     }
     body main p {
-        font-size: 1.5em;
+        ont-size: 1.3em;
         margin-left: 1.1em;
         margin-right: 0.8em;
     }
@@ -891,13 +895,13 @@ body footer div.row div.col ul li a {
     body main #lesfiltres p.plusdelogements {
         margin-top: 1em;
         margin-left: 1.5em;
-        font-size: 1.1em;
+        font-size: 0.9em;
     }
     /*  Section  1 hebergement a marseille */
     body main section.hebergement {
         margin-left: -1.6em;
         border-radius: 0rem;
-        margin-top: 19em;
+        margin-top: 42%;
         margin-right: 0em;
         margin-right: -1em;
     }
@@ -940,7 +944,7 @@ body footer div.row div.col ul li a {
         margin-left: 1em;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire {
-        WIDTH: 92%;
+        width: 92%;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire header {
         padding: 6% 0%;
@@ -1039,7 +1043,7 @@ body footer div.row div.col ul li a {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 453px) {
     #logo {
         width: 96%;
     }
@@ -1049,10 +1053,48 @@ body footer div.row div.col ul li a {
     body main div#modulerecherche input {
         margin-left: 9em;
     }
+    body main section.hebergement {
+        margin-top: 71%;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
+        width: 85%;
+    }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
-        width: 12em;
+        width: 10em;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
-        margin-left: 2%;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    body header div.inscrire {
+        margin-right: -1em;
+    }
+    body main h1 {
+        font-size: 1.4em;
+    }
+    body main p {
+        font-size: 1em;
+    }
+    body main section.hebergement {
+        margin-top: 84%;
+        margin-right: -4em;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
+        width: 73%;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
+        width: 10em;
+        font-size: medium;
+    }
+    body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
+        margin-left: -10%;
+    }
+    body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.col {
+        width: 72%;
+    }
+    body section.activites div.activite div.col-1 {
+        margin-bottom: -75%;
     }
 }
