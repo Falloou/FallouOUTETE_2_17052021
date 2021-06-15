@@ -648,10 +648,6 @@ body footer {
     padding: 20px 0px 20px 0px;
 }
 
-body footer div#container {
-    margin-left: 49px;
-}
-
 body footer div.row {
     display: flex;
     margin-left: 49px;
