@@ -40,7 +40,7 @@ body header nav ul {
     display: flex;
 }
 
-body header nav li a.navigation {
+body header nav ul li a.navigation {
     padding: 45px 20px 0px 20px;
     border-top: 2px solid transparent;
     height: 110px;
@@ -49,17 +49,17 @@ body header nav li a.navigation {
     text-decoration: none;
 }
 
-body header nav li {
+body header nav ul li {
     list-style: none;
 }
 
-body header nav li a:hover {
+body header nav ul li a:hover {
     border-top: 2px solid #0065fc;
     color: #0065fc;
     transition: all 350ms;
 }
 
-body header div.inscrire {
+body header div#inscrire {
     padding: 87px 20px 0px 20px;
     height: 110px;
     text-align: right;
@@ -335,9 +335,9 @@ body main section.hebergement div.container_hebergement div.hebergementamarseill
 }
 
 body main section.hebergement div.container_hebergement div.hebergementamarseilles h3 {
-    margin: 11px 0px 15px 10px;
+    margin: 11px 0px 28px 10px;
     font-weight: 600;
-    margin-bottom: 0.2em;
+    margin-bottom: 1em;
 }
 
 body main section.hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv {
@@ -817,17 +817,21 @@ body footer div.row div.col ul li a {
         width: 98%;
     }
     /* navigation */
+    body header nav {
+        margin-bottom: -2em;
+    }
     body header nav ul {
+        border-bottom: solid #f2f2f2;
         right: 0em;
         top: 6em;
         width: 100%;
         justify-content: space-around;
     }
-    body header nav ul:hover {
-        border-bottom: solid #f2f2f2;
-    }
     body header nav li {
         list-style: none;
+        padding-bottom: 0.8em;
+        padding-left: 4em;
+        padding-right: 3em;
         margin-bottom: -0.2em;
     }
     body header nav li:hover {
@@ -842,7 +846,10 @@ body footer div.row div.col ul li a {
         height: 45px;
         text-align: center;
     }
-    body header div.inscrire {
+    body header nav ul li a:hover {
+        border-top: none;
+    }
+    body header div#inscrire {
         margin-right: 0em;
     }
     body main h1 {
@@ -920,6 +927,7 @@ body footer div.row div.col ul li a {
         margin-top: 1em;
         margin-left: 1.5em;
         font-size: 1.2em;
+        width: 86%;
     }
     /*  Section  1 hebergement a marseille */
     body main section.hebergement {
@@ -1070,6 +1078,12 @@ body footer div.row div.col ul li a {
 @media only screen and (max-width: 453px) {
     #logo {
         width: 96%;
+    }
+    body header nav li {
+        list-style: none;
+        padding-bottom: 0.8em;
+        padding-left: 2em;
+        padding-right: 2em;
     }
     body main h1 {
         font-size: 1.8em;
