@@ -37,6 +37,10 @@ body header nav {
     display: flex;
 }
 
+#champdesaisie {
+    color: #0065fc;
+}
+
 body header nav li a.navigation {
     padding: 45px 20px 0px 20px;
     border-top: 2px solid transparent;
@@ -145,6 +149,13 @@ input {
     font-size: 1.2em;
     font-weight: 600;
     padding-left: 10px;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1;
+    /* Firefox */
 }
 
 .button {
