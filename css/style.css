@@ -37,10 +37,6 @@ body header nav {
     display: flex;
 }
 
-#champdesaisie {
-    color: #0065fc;
-}
-
 body header nav li a.navigation {
     padding: 45px 20px 0px 20px;
     border-top: 2px solid transparent;
@@ -97,7 +93,7 @@ body main {
 body main h1 {
     margin-left: 49px;
     font-size: large;
-    margin-bottom: 2%;
+    margin-bottom: 0.5%;
 }
 
 body main p {
@@ -113,12 +109,20 @@ body main p {
     justify-content: center;
     align-items: center;
     border: 1px solid #f2f2f2;
-    width: 400px;
+    width: 376px;
     height: 45px;
     border-radius: 15px;
     margin-top: 25px;
     background-color: white;
     margin-left: 49px;
+}
+
+#champdesaisie {
+    color: #0065fc;
+    color: #0065fc;
+    font-size: initial;
+    font-weight: 700;
+    margin-left: 5em;
 }
 
 .iconmap {
@@ -256,8 +260,8 @@ body main .filtre:hover i {
 body main .filtre p {
     font-weight: 800;
     font-size: 1.15em;
-    margin-left: 2px;
-    padding-right: 7px;
+    margin-left: 9px;
+    padding-right: 9px;
 }
 
 
@@ -268,6 +272,7 @@ body main p.plusdelogements {
     align-items: baseline;
     margin-left: 0px;
     margin-top: 2%;
+    width: inherit;
 }
 
 
@@ -284,6 +289,7 @@ body main p i.fa-info {
     align-items: center;
     border: 2px solid #f2f2f2;
     border-radius: 50%;
+    margin-right: 1%;
 }
 
 
@@ -460,6 +466,7 @@ body main section.hebergement div.container_hebergement div.contentpopulaire div
 }
 
 h4 {
+    font-weight: 600;
     margin-left: 0.6em;
     margin-top: 1em;
 }
@@ -836,14 +843,14 @@ body footer div.row div.col ul li a {
         margin-right: 0em;
     }
     body main h1 {
-        font-size: 1.8em;
+        font-size: 2em;
         font-weight: 600;
         margin-top: 1em;
         margin-left: 0.8em;
         margin-right: 0.8em;
     }
     body main p {
-        ont-size: 1.3em;
+        font-size: 1.3em;
         margin-left: 1.1em;
         margin-right: 0.8em;
     }
@@ -851,6 +858,9 @@ body footer div.row div.col ul li a {
     body main div#modulerecherche {
         margin-left: 1.1em;
         width: 87%;
+    }
+    body main div#modulerecherche input {
+        margin-left: 5em;
     }
     body main div#modulerecherche input {
         width: 13em;
@@ -884,7 +894,7 @@ body footer div.row div.col ul li a {
         margin-left: 1.1em;
     }
     body main .boutonsfiltre {
-        width: 91%;
+        width: 96%;
     }
     /* icon ds filtre */
     body main .filtre div#icon {
@@ -893,9 +903,9 @@ body footer div.row div.col ul li a {
     }
     body main .filtre p {
         margin-right: 1em;
-        padding-left: 1em;
-        padding-right: 0.5em;
-        font-size: 1.2em;
+        padding-left: 0.5em;
+        padding-right: 0em;
+        font-size: 1em;
         font-weight: 900;
     }
     /* info */
@@ -906,7 +916,7 @@ body footer div.row div.col ul li a {
     body main #lesfiltres p.plusdelogements {
         margin-top: 1em;
         margin-left: 1.5em;
-        font-size: 0.9em;
+        font-size: 1.2em;
     }
     /*  Section  1 hebergement a marseille */
     body main section.hebergement {
@@ -965,7 +975,7 @@ body footer div.row div.col ul li a {
         width: 43%;
     }
     h4 {
-        font-size: large;
+        font-size: 1em;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire p.paragrapher {
         font-size: large;
@@ -1058,14 +1068,20 @@ body footer div.row div.col ul li a {
     #logo {
         width: 96%;
     }
+    body main h1 {
+        font-size: 1.8em;
+    }
     body main div#modulerecherche {
-        width: 84%;
+        width: 86%;
     }
     body main div#modulerecherche input {
-        margin-left: 9em;
+        margin-left: 14%;
+    }
+    body main #lesfiltres p.plusdelogements {
+        font-size: 0.9em;
     }
     body main section.hebergement {
-        margin-top: 71%;
+        margin-top: 55%;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
         width: 85%;
@@ -1087,6 +1103,12 @@ body footer div.row div.col ul li a {
     }
     body main p {
         font-size: 1em;
+    }
+    body main div#modulerecherche input {
+        margin-left: 8em;
+    }
+    body main div#modulerecherche {
+        width: 92%;
     }
     body main section.hebergement {
         margin-top: 84%;
