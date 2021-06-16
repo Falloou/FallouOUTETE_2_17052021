@@ -21,7 +21,6 @@ body {
 
 body header {
     position: relative;
-    max-width: 1440px;
     height: 90px;
     padding-top: 20px;
     margin: 0 auto;
@@ -32,6 +31,10 @@ body header {
 }
 
 body header nav {
+    margin-bottom: 1%;
+}
+
+body header nav ul {
     position: absolute;
     right: 165px;
     display: flex;
@@ -814,13 +817,13 @@ body footer div.row div.col ul li a {
         width: 98%;
     }
     /* navigation */
-    body header nav {
+    body header nav ul {
         right: 0em;
         top: 6em;
         width: 100%;
         justify-content: space-around;
     }
-    body header nav:hover {
+    body header nav ul:hover {
         border-bottom: solid #f2f2f2;
     }
     body header nav li {
