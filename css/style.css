@@ -213,7 +213,7 @@ body main #lesfiltres {
     margin-left: 49px;
 }
 
-body main .boutonsfiltre {
+body main #boutonsfiltre {
     display: flex;
     flex-wrap: wrap;
     width: 82%;
@@ -270,7 +270,7 @@ body main .filtre p {
 
 /* info les 500 les plus populaire */
 
-body main p.plusdelogements {
+body main p#plusdelogements {
     display: inline-flex;
     align-items: baseline;
     margin-left: 0px;
@@ -710,7 +710,7 @@ body footer div.row div.col ul li a {
     body main h1 {
         font-size: x-large;
     }
-    body main p.plusdelogements {
+    body main p#plusdelogements {
         font-size: large;
         margin-left: 1.5em;
     }
@@ -903,7 +903,7 @@ body footer div.row div.col ul li a {
         flex-wrap: wrap;
         margin-left: 1.1em;
     }
-    body main .boutonsfiltre {
+    body main #boutonsfiltre {
         width: 96%;
     }
     /* icon ds filtre */
@@ -923,7 +923,7 @@ body footer div.row div.col ul li a {
         font-size: 0.6em;
         margin-right: 0.5em;
     }
-    body main #lesfiltres p.plusdelogements {
+    body main #lesfiltres p#plusdelogements {
         margin-top: 1em;
         margin-left: 1.5em;
         font-size: 1.2em;
@@ -1097,7 +1097,7 @@ body footer div.row div.col ul li a {
     body main div#modulerecherche input {
         margin-left: 14%;
     }
-    body main #lesfiltres p.plusdelogements {
+    body main #lesfiltres p#plusdelogements {
         font-size: 0.9em;
     }
     body main section.hebergement {
