@@ -824,7 +824,7 @@ body footer div.row div.col ul li a {
         border-bottom: solid #f2f2f2;
         right: 0em;
         top: 6em;
-        width: 100%;
+        width: 99%;
         justify-content: space-around;
     }
     body header nav li {
@@ -1079,11 +1079,14 @@ body footer div.row div.col ul li a {
     #logo {
         width: 96%;
     }
+    body header div#inscrire {
+        margin-right: -2em;
+    }
     body header nav li {
         list-style: none;
         padding-bottom: 0.8em;
-        padding-left: 2em;
-        padding-right: 2em;
+        padding-left: 1em;
+        padding-right: 0em;
     }
     body main h1 {
         font-size: 1.8em;
@@ -1101,25 +1104,35 @@ body footer div.row div.col ul li a {
         margin-top: 55%;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
-        width: 85%;
+        width: 83%;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
         width: 10em;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
-        margin-left: 0%;
+        margin-left: -3%;
     }
 }
 
 @media screen and (max-width: 335px) {
     body header div.inscrire {
-        margin-right: -1em;
+        margin-right: -3em;
     }
     body main h1 {
         font-size: 1.4em;
     }
     body main p {
         font-size: 1em;
+    }
+    body header nav ul {
+        right: -2em;
+        width: 105%;
+    }
+    body header nav li {
+        list-style: none;
+        padding-bottom: 0.8em;
+        padding-left: 0em;
+        padding-right: 0em;
     }
     body main div#modulerecherche input {
         margin-left: 8em;
@@ -1132,7 +1145,7 @@ body footer div.row div.col ul li a {
         margin-right: -4em;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.populaire {
-        width: 73%;
+        width: 74%;
     }
     body main section.hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
         width: 10em;
