@@ -591,7 +591,15 @@ body section.activites div.activite div.col-1:hover {
 
 body section.activites div.activite div.col-2 {
     width: 100%;
-    padding-bottom: 7%;
+    padding-bottom: 17%;
+}
+
+body section.activites div.activite div.col #img12 {
+    padding-top: 0%;
+}
+
+body section.activites div.activite div.col #img15 {
+    padding-top: 0%;
 }
 
 body section.activites div.activite div.col-2:hover {
@@ -789,6 +797,12 @@ body footer div.row div.col ul li a {
         width: 46%;
         padding-right: 3%;
         margin-top: -2.5em;
+    }
+    body section.activites div.activite div.col #img12 {
+        padding-top: 12%;
+    }
+    body section.activites div.activite div.col #img15 {
+        padding-top: 12%;
     }
     body section.activites div.activite div.col-1 {
         width: 95%;
@@ -1047,8 +1061,14 @@ body footer div.row div.col ul li a {
     body section.activites div.activite div.col-2 {
         width: 100%;
         margin-left: 0em;
-        margin-top: 4%;
-        margin-bottom: -5%;
+        margin-top: 7%;
+        margin-bottom: -10%;
+    }
+    body section.activites div.activite div.col #img12 {
+        padding-top: 0%;
+    }
+    body section.activites div.activite div.col #img15 {
+        padding-top: 0%;
     }
     body section.activites div.activite div.col div.row {
         display: block;
