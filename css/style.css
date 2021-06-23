@@ -590,6 +590,11 @@ body section#activites div.activite {
     height: 100%;
 }
 
+body section#activites div.activite {
+    text-decoration-line: none;
+    color: black;
+}
+
 body section#activites div.activite div.col {
     width: 24%;
     border-radius: 1rem;
@@ -604,7 +609,7 @@ body section#activites div.activite div.col-1:hover {
     transform: scale(1.02);
 }
 
-body section#activites div.activite div.col-2 {
+body section#activites div.activite a.col-2 {
     width: 100%;
     padding-bottom: 17%;
 }
@@ -617,7 +622,7 @@ body section#activites div.activite div.col #img15 {
     padding-top: 0%;
 }
 
-body section#activites div.activite div.col-2:hover {
+body section#activites div.activite a.col-2:hover {
     transition: transform 200ms;
     transform: scale(1.02);
 }
@@ -641,6 +646,7 @@ body section#activites div.activite div.col #img11 {
 }
 
 body section#activites div.activite div.col #img12 {
+    margin-top: 18%;
     background-image: url(../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
 }
 
@@ -653,6 +659,7 @@ body section#activites div.activite div.col #img14 {
 }
 
 body section#activites div.activite div.col #img15 {
+    margin-top: 18%;
     background-image: url(../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
 }
 
@@ -816,7 +823,7 @@ body footer div.row div.col ul li a {
         width: 100%;
         height: 20em;
     }
-    body section#activites div.activite div.col-2 {
+    body section#activites div.activite a.col-2 {
         width: 46%;
         padding-right: 3%;
         margin-top: -1.5em;
@@ -824,15 +831,17 @@ body footer div.row div.col ul li a {
     }
     body section#activites div.activite div.col #img12 {
         padding-top: 12%;
+        margin-top: 0%;
     }
     body section#activites div.activite div.col #img15 {
         padding-top: 12%;
+        margin-top: 0%;
     }
     body section#activites div.activite div.col-1 {
         width: 95%;
         margin-top: 0em;
     }
-    body section#activites div.activite div.col-2 div.titreCarte {
+    body section#activites div.activite a.col-2 div.titreCarte {
         padding-bottom: 5%;
     }
     body section#activites div.activite div.col div.row {
@@ -1097,14 +1106,20 @@ body footer div.row div.col ul li a {
         margin-bottom: -45%;
         margin-top: 3%;
     }
-    body section#activites div.activite div.col-2 {
+    body section#activites div.activite a.col-2 {
         width: 100%;
         margin-left: 0em;
         margin-top: 5%;
         margin-bottom: 0%;
     }
+    body section#activites div.activite div.col #img11 {
+        margin-top: 6%;
+    }
     body section#activites div.activite div.col #img12 {
         padding-top: 0%;
+    }
+    body section#activites div.activite div.col #img14 {
+        margin-top: 6%;
     }
     body section#activites div.activite div.col #img15 {
         padding-top: 0%;
