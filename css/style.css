@@ -308,11 +308,14 @@ body main section#hebergement {
     margin-right: 41px;
 }
 
-body main p#afficherplus {
+body main button#afficherplus {
     margin-left: 8px;
     font-size: large;
     font-weight: 600;
     cursor: pointer;
+    margin-top: 3%;
+    border: none;
+    background-color: #f2f2f2;
 }
 
 body main section#hebergement div.container_hebergement {
@@ -334,7 +337,7 @@ body main section#hebergement div.container_hebergement div.hebergementamarseill
     cursor: pointer;
 }
 
-body main section#hebergement div.container_hebergement div.hebergementamarseilles h3 {
+body main section#hebergement div.container_hebergement div.hebergementamarseilles h2 {
     margin: 11px 0px 28px 10px;
     font-weight: 600;
     margin-bottom: 1em;
@@ -370,7 +373,13 @@ body main section#hebergement div.container_hebergement div.hebergementamarseill
 
 /* les titres dans la partie hébergement a marseille */
 
-body main section#hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.texteCartes h3 {
+h2 {
+    font-weight: 600;
+    margin-bottom: 0.2em;
+    font-size: larger;
+}
+
+body main section#hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.texteCartes h2 {
     font-weight: 600;
     margin-bottom: 0.2em;
 }
@@ -388,7 +397,7 @@ body main section#hebergement div.container_hebergement div.hebergementamarseill
 }
 
 body main section#hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.texteCartes p.paragrapher {
-    margin-left: 0.6em;
+    margin-left: 0.7em;
 }
 
 
@@ -448,6 +457,7 @@ body main section#hebergement div.container_hebergement div.contentpopulaire {
 body main section#hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire {
     display: inline-flex;
     margin-bottom: 4%;
+    width: 98%;
 }
 
 body main section#hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
@@ -468,15 +478,16 @@ body main section#hebergement div.container_hebergement div.contentpopulaire div
     margin-left: 0px;
 }
 
-h4 {
-    font-weight: 600;
+h3 {
+    font-weight: 700;
     margin-left: 0.6em;
     margin-top: 1em;
+    font-size: inherit;
 }
 
 body main section#hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
-    padding-top: 13px;
-    padding-left: 88px;
+    padding-top: 0px;
+    padding-left: 36%;
     font-size: larger;
 }
 
@@ -486,7 +497,7 @@ body main section#hebergement div.container_hebergement div.contentpopulaire .im
 }
 
 body main section#hebergement div.container_hebergement div.contentpopulaire div.populaire {
-    width: 90%;
+    width: 98%;
     display: inline-flex;
     background-color: white;
     border-radius: 1rem;
@@ -554,7 +565,7 @@ body section#activites {
     margin-right: 31px;
 }
 
-body section#activites h3 {
+body section#activites h2 {
     margin-left: 24px;
     margin-top: 4%;
     margin-bottom: 2%;
@@ -764,13 +775,15 @@ body footer div.row div.col ul li a {
     }
     body main section#hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire {
         width: 93%;
+        margin-top: 1em;
+        margin-bottom: 2%;
     }
     body main section#hebergement div.container_hebergement div.contentpopulaire div.populaire p.paragrapher {
         margin-left: 0.6em;
         font-size: large;
     }
     body main section#hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
-        padding-left: 74%;
+        padding-left: 72%;
     }
     body main section#hebergement div.container_hebergement div.contentpopulaire div.populaire div.texteCartes i.fa-star {
         margin-top: 42%;
@@ -926,7 +939,7 @@ body footer div.row div.col ul li a {
         margin-left: 1.1em;
     }
     body main #boutonsfiltre {
-        width: 96%;
+        width: 81%;
     }
     /* icon ds filtre */
     body main .filtre div#icon {
@@ -949,7 +962,7 @@ body footer div.row div.col ul li a {
         margin-top: 1em;
         margin-left: 1.5em;
         font-size: 1.2em;
-        width: 86%;
+        width: 81%;
     }
     /*  Section  1 hebergement a marseille */
     body main section#hebergement {
@@ -959,8 +972,9 @@ body footer div.row div.col ul li a {
         margin-right: 0em;
         margin-right: -1em;
     }
-    body main p#afficherplus {
+    body main button#afficherplus {
         padding-left: 1.5em;
+        background-color: white;
     }
     body main section#hebergement div.container_hebergement {
         display: flex;
@@ -970,8 +984,9 @@ body footer div.row div.col ul li a {
         width: 100%;
         background-color: white;
     }
-    body main section#hebergement div.container_hebergement div.hebergementamarseilles h3 {
-        margin-left: 1.6em;
+    body main section#hebergement div.container_hebergement div.hebergementamarseilles h2 {
+        margin-left: 5%;
+        margin-top: 1.5em;
     }
     body main section#hebergement div.container_hebergement div.hebergementamarseilles a.button {
         margin-left: 1.6em;
@@ -989,6 +1004,7 @@ body footer div.row div.col ul li a {
     body main section#hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.texteCartes h3 {
         font-weight: 800;
         font-size: 1em;
+        margin-left: 1.5em;
     }
     body main section#hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv div.texteCartes p.paragrapher {
         margin-left: 1.5em;
@@ -998,7 +1014,9 @@ body footer div.row div.col ul li a {
         margin-left: 1em;
     }
     body main section#hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire {
-        width: 92%;
+        width: 100%;
+        margin-left: 6%;
+        margin-top: 2em;
     }
     body main section#hebergement div.container_hebergement div.contentpopulaire div.populaire header {
         padding: 6% 0%;
@@ -1040,13 +1058,14 @@ body footer div.row div.col ul li a {
         font-size: inherit;
     }
     body main section#hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire i.fa-chart-line {
-        padding-left: 45%;
+        padding-left: 50%;
     }
     /*  Section  2 activité a marseille */
-    body section#activites h3 {
+    body section#activites h2 {
         margin-left: -0.5em;
-        margin-top: 9%;
-        margin-bottom: 11%;
+        margin-top: 4%;
+        margin-bottom: -3%;
+        font-weight: 600;
     }
     body section#activites div.activite {
         margin-left: 0em;
@@ -1091,7 +1110,7 @@ body footer div.row div.col ul li a {
     /* footer */
     body footer {
         margin-right: -3em;
-        margin-top: 17%;
+        margin-top: 8%;
     }
     body footer div.row {
         display: block;
