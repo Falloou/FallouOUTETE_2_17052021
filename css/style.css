@@ -438,7 +438,7 @@ body main section#hebergement div.container_hebergement div.hebergementamarseill
 body main section#hebergement div.container_hebergement div.hebergementamarseilles div.contentDiv a.col i.fas {
     color: #0065fc;
     font-size: 0.7rem;
-    letter-spacing: -1em;
+    letter-spacing: -0.7em;
     margin-left: 0.8em;
 }
 
@@ -552,7 +552,7 @@ body main section#hebergement div.container_hebergement div.contentpopulaire a.p
 body main section#hebergement div.container_hebergement div.contentpopulaire a.populaire div.texteCartes i.fa-star {
     color: #0065fc;
     font-size: 0.7rem;
-    letter-spacing: -1em;
+    letter-spacing: -0.7em;
     margin-left: 0.8em;
     margin-top: 30%;
 }
@@ -590,7 +590,7 @@ body section#activites div.activite {
     height: 100%;
 }
 
-body section#activites div.activite {
+body section#activites div.activite a {
     text-decoration-line: none;
     color: black;
 }
