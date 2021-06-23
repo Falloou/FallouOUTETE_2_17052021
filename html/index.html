@@ -45,10 +45,11 @@
                 <input type="search"  name="champdesaisie" 
                 id="champdesaisie" 
                 placeholder="Marseille, France" >
-            </form>
-            <div class="button"><p class="rechercher">Rechercher</p>
+            
+            <button><p class="rechercher">Rechercher</p>
                 <i class="fas fa-search loupe"></i>
-            </div>
+            </button>
+        </form>
         </div>
         <!-- Fin recherche  -->
         <div id="lesfiltres">
@@ -82,21 +83,22 @@
                 <div class="hebergementamarseilles ">
                     <h2>Hébergements à Marseille</h2>
                     <div class="row contentDiv ">
-                        <div class="col ">
-                            <header class=" img " id="img1"></header>
-                            <div class="texteCartes">
-                                <h3>Auberge la Cannebière</h3>
-                                <p class="paragrapher ">Nuit a partir de 25<span>€</span></p>
-                                <div>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star far"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col ">
+                        <a class="col " href="#">
+                                <header class=" img " id="img1"></header>
+                                <div class="texteCartes">
+                                    <h3>Auberge la Cannebière</h3>
+                                    <p class="paragrapher ">Nuit a partir de 25<span>€</span></p>
+                                    <div>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star far"></i>
+                                    </div>
+                                </div>           
+                        </a>
+                        
+                        <a class="col " href="#">
                             <header class=" img " id="img2" ></header>
                             <div class="texteCartes">
                                 <h3>Hôtel du port</h3>
@@ -109,8 +111,8 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col ">
+                        </a>
+                        <a class="col " href="#">
                             <header class=" img " id="img3"></header>
                             <div class="texteCartes">
                                 <h3>Hôtel Les mouettes</h3>
@@ -123,8 +125,8 @@
                                     <i class="fas fa-star far"></i>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col ">
+                        </a>
+                        <a class="col " href="#">
                             <header class=" img " id="img4"></header>
                             <div class="texteCartes">
                                 <h3>Hôtel de La mer</h3>
@@ -137,8 +139,8 @@
                                     <i class="fas fa-star far"></i>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col ">
+                        </a>
+                        <a class="col " href="#">
                             <header class="img " id="img5"></header>
                             <div class="texteCartes">
                                 <h3>Auberge Le Panier</h3>
@@ -151,8 +153,8 @@
                                     <i class="fas fa-star far"></i>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col ">
+                        </a>
+                        <a class="col " href="#">
                             <header class="img " id="img6"></header>
                             <div class="texteCartes">
                                 <h3>Hôtel chez Amina</h3>
@@ -165,10 +167,10 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
-                    <button id="afficherplus">Afficher plus</button>
+                    <p id="afficherplus">Afficher plus</p>
                 </div>
                 <!--Debut hebergement  a marseille  div les plus populaire-->
                 <div class="row  contentpopulaire">
@@ -177,7 +179,7 @@
                         <i class="fas fa-chart-line"></i>
                     </div>
 
-                    <div class="populaire ">
+                    <a class="populaire " href="#">
                         <header class="img_populaire " id="img7"></header>
                         <div class="texteCartes">
                             <h3>Hôtel Le soleil du matin</h3>
@@ -190,14 +192,14 @@
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="populaire ">
+                    <a class="populaire " href="#">
                         <header class="img_populaire " id="img8"></header>
                         <div class="texteCartes">
                             <h3>Au cœur de l'eau chambres d'hôtes</h3>
                             <p class="paragrapher ">Nuit a partir de 71<span>€</span></p>
-                            <div class="coeurdeau">
+                            <div id="coeurdeau">
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
@@ -205,8 +207,8 @@
                                 <i class="fas fa-star far"></i>
                             </div>
                         </div>
-                    </div>
-                    <div class="populaire ">
+                    </a>
+                    <a class="populaire " href="#">
                         <header class=" img_populaire " id="img9"></header>
                         <div class="texteCartes">
                             <h3>Hôtel Tout bleu et blanc</h3>
@@ -220,7 +222,7 @@
                                 <i class="fas fa-star far"></i>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
