@@ -1023,7 +1023,7 @@ body footer div.row div.col ul li a {
         margin: 0.5em;
     }
     body main section#hebergement div.container_hebergement div.contentpopulaire div.populaire .img_populaire {
-        width: 43%;
+        width: 23%;
     }
     h4 {
         font-size: 1em;
@@ -1035,7 +1035,7 @@ body footer div.row div.col ul li a {
         padding: 1.9em;
     }
     body main section#hebergement div.container_hebergement div.contentpopulaire div.populaire div.texteCartes div.coeurdeau {
-        margin-top: 0%;
+        margin-top: -8%;
     }
     /*  Section  1 hebergement a marseille partie les plus popuaires*/
     body main section#hebergement div.container_hebergement div.contentpopulaire {
@@ -1047,8 +1047,14 @@ body footer div.row div.col ul li a {
         margin-left: 1.6em;
         margin-right: 1.6em;
     }
+    body main section#hebergement div.container_hebergement div.contentpopulaire div.populaire #img7 {
+        width: 35%;
+    }
     body main section#hebergement div.container_hebergement div.contentpopulaire div.populaire #img8 {
-        width: 84%;
+        width: 40%;
+    }
+    body main section#hebergement div.container_hebergement div.contentpopulaire div.populaire #img9 {
+        width: 35%;
     }
     body main section#hebergement div.container_hebergement div.contentpopulaire div.titrepopulaire h3 {
         width: 12em;
